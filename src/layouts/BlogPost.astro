@@ -23,6 +23,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				width: 100%;
 				max-width: 100%;
 				margin: 0;
+				padding: 0; /* 讓內容控制邊距 */
 			}
 			.hero-image {
 				width: 100%;
@@ -31,7 +32,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
-				border-radius: 12px;
+				border-radius: 0; /* 手機頂部滿版通常不圓角較好看 */
 				width: 100%;
 				max-width: 1020px;
 			}
@@ -39,10 +40,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				width: 100%;
 				max-width: 800px;
 				margin: auto;
-				padding: 1em;
+				padding: 1rem; /* 統一邊距 */
 			}
 			.title {
-				margin-bottom: 1em;
+				margin-bottom: 2em;
 				padding: 1em 0;
 				text-align: center;
 				line-height: 1.2;
@@ -52,11 +53,14 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.date {
 				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				color: var(--gray);
 			}
 			@media (max-width: 720px) {
-				.prose {
-					padding: 0.5em;
+				.hero-image {
+					margin-bottom: 1rem;
+				}
+				.title {
+					margin-bottom: 1rem;
 				}
 				.title h1 {
 					font-size: 1.8rem;

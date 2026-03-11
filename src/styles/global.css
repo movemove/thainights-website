@@ -10,6 +10,10 @@
 	--neon-blue: #00f2ff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
 	font-family: "Atkinson", 'PingFang TC', 'Microsoft JhengHei', sans-serif;
 	margin: 0;
@@ -21,13 +25,14 @@ body {
 	color: rgb(var(--gray-dark));
 	font-size: 18px;
 	line-height: 1.6;
+    overflow-x: hidden; /* 防止左右滑動 */
 }
 
 main {
-	width: 1000px;
-	max-width: 100%;
+	width: 100%;
+	max-width: 1000px;
 	margin: auto;
-	padding: 2em 1em;
+	padding: 2em 1rem; /* 增加基礎內邊距 */
 }
 
 h1, h2, h3, h4 {
@@ -56,6 +61,7 @@ img {
 }
 
 .prose {
+    width: 100%;
     max-width: 800px;
     margin: auto;
 }
@@ -65,7 +71,7 @@ img {
 		font-size: 16px;
 	}
 	main {
-		padding: 1em;
+		padding: 1.5em 1rem;
 	}
     h1 { font-size: 2rem; }
     h2 { font-size: 1.6rem; }
