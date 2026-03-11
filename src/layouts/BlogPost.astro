@@ -83,7 +83,18 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					</div>
 					<slot />
 
-					<!-- Giscus Comment Section Removed -->
+					<!-- Cusdis Comment Section -->
+					<div style="margin-top: 3rem; border-top: 1px solid #333; padding-top: 2rem;">
+						<h3 style="color: var(--neon-pink);">💬 討論區 (免登入留言)</h3>
+						<div id="cusdis_thread"
+							data-host="https://cusdis.com"
+							data-app-id="77aeb03e-4803-4df8-99d4-527051ac70a5"
+							data-page-id={Astro.url.pathname}
+							data-page-url={Astro.url.href}
+							data-page-title={title}
+						></div>
+						<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+					</div>
 				</div>
 			</article>
 		</main>
