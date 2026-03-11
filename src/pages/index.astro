@@ -1,0 +1,86 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-TW">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			:root {
+				--bg-dark: #0a0a0c;
+				--neon-pink: #ff00ff;
+				--neon-blue: #00f2ff;
+			}
+			main {
+				width: 100%;
+				max-width: 1000px;
+				margin: 0 auto;
+				padding: 3em 1em;
+				color: #e0e0e0;
+			}
+			.hero {
+				text-align: center;
+				margin-bottom: 3rem;
+			}
+			.hero h1 {
+				font-size: 3.5rem;
+				color: var(--neon-blue);
+				text-shadow: 0 0 20px var(--neon-blue);
+			}
+			.card-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+				gap: 2rem;
+			}
+			.card {
+				background: #16161a;
+				padding: 1.5rem;
+				border-radius: 12px;
+				border: 1px solid #333;
+				transition: transform 0.2s;
+			}
+			.card:hover {
+				transform: translateY(-5px);
+				border-color: var(--neon-pink);
+			}
+			.btn {
+				background: var(--neon-pink);
+				color: white;
+				padding: 0.8rem 1.5rem;
+				border-radius: 6px;
+				text-decoration: none;
+				display: inline-block;
+				font-weight: bold;
+				margin-top: 1rem;
+			}
+		</style>
+	</head>
+	<body style="background-color: #0a0a0c;">
+		<Header />
+		<main>
+			<div class="hero">
+				<h1>🇹🇭 ThaiNights</h1>
+				<p>{SITE_DESCRIPTION}</p>
+				<a href="/map" class="btn">查看互動地圖</a>
+			</div>
+			
+			<div class="card-grid">
+				<div class="card">
+					<h3>📍 Nana Plaza</h3>
+					<p>全球最大成人遊樂場，三層樓精華攻略...</p>
+					<a href="/blog/nana-plaza" style="color: var(--neon-pink);">閱讀評測 →</a>
+				</div>
+				<div class="card">
+					<h3>📍 Soi Cowboy</h3>
+					<p>最受歡迎的霓虹小巷，必去店家推薦...</p>
+					<a href="/blog/soi-cowboy" style="color: var(--neon-pink);">閱讀評測 →</a>
+				</div>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>
