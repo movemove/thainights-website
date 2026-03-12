@@ -10,16 +10,20 @@ import { SITE_TITLE } from '../consts';
 	<head>
 		<BaseHead title={`夜遊地圖 - ${SITE_TITLE}`} description="泰國夜生活互動地圖" />
 		<style>
-			main { width: 100%; max-width: 1000px; margin: 0 auto; padding: 2em 1em; color: #e0e0e0; }
+			main { width: 100%; max-width: 1000px; margin: 0 auto; padding: 2em 1rem; color: #e0e0e0; }
 			.map-container { height: 700px; border-radius: 12px; overflow: hidden; border: 1px solid #333; margin-top: 1rem; }
+			@media (max-width: 720px) {
+				.map-container { height: 500px; }
+			}
 		</style>
 	</head>
 	<body style="background-color: #0a0a0c;">
 		<Header />
 		<main>
-			<h1 style="color: var(--neon-blue);">🗺️ 泰國夜遊互動地圖</h1>
+			<h1 style="color: var(--neon-blue);">🗺️ 泰國夜遊互動地圖 (Google Maps)</h1>
+			<p>已切換為 Google Maps 版本，支援更精確的定位與導航。</p>
 			<div class="map-container">
-				<iframe width="100%" height="100%" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/ja/map/thai-night-life_247238?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+				<iframe width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen src="https://www.google.com/maps/d/embed?mid=1gav14SjV9ej4GBbs3IEyYzjL5Wro_SI"></iframe>
 			</div>
 		</main>
 		<Footer />
