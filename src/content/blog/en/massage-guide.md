@@ -1,6 +1,6 @@
 ---
-title: 'Bangkok Massage Guide: From Traditional Thai to 'Soapy' Experiences'
-description: 'Thailand is a paradise for massage lovers. Learn the difference between 'pure' and 'not so pure' venues here.'
+title: "Bangkok Massage Guide: From Traditional Thai to 'Soapy' Experiences"
+description: "Thailand is a paradise for massage lovers. Learn the difference between 'pure' and 'not so pure' venues here."
 pubDate: 'Mar 11 2026'
 heroImage: '../../../assets/blog-placeholder-about.jpg'
 ---
