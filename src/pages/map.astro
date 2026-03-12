@@ -13,18 +13,101 @@ const t = useTranslations(lang);
 	<head>
 		<BaseHead title={`${t('map.title')} - ThaiNights.net`} description={t('map.description')} />
 		<style>
-			main { width: 100%; max-width: 1000px; margin: 0 auto; padding: 2em 1rem; color: #e0e0e0; }
-			.map-container { height: 700px; border-radius: 12px; overflow: hidden; border: 1px solid #333; margin-top: 1rem; }
+			main { width: 100%; max-width: 1000px; margin: auto; padding: 2em 1rem; color: #e0e0e0; }
+			
+            .map-header {
+                text-align: center;
+                margin-bottom: 3rem;
+                padding: 2rem;
+                background: linear-gradient(135deg, #16161a 0%, #0a0a0c 100%);
+                border-radius: 16px;
+                border: 1px solid #222;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            }
+
+            .map-header h1 {
+                font-size: 2.8rem;
+                margin-bottom: 1rem;
+                background: linear-gradient(to right, var(--neon-blue), var(--neon-pink));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-shadow: none;
+            }
+
+            .map-info-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1.5rem;
+                margin-top: 2rem;
+                text-align: left;
+            }
+
+            .info-item {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                font-size: 0.9rem;
+                color: #aaa;
+            }
+
+            .info-icon {
+                color: var(--neon-pink);
+                font-size: 1.2rem;
+                line-height: 1;
+            }
+
+			.map-container { 
+                height: 700px; 
+                border-radius: 20px; 
+                overflow: hidden; 
+                border: 2px solid #333; 
+                margin-top: 1rem;
+                box-shadow: 0 0 20px rgba(0, 242, 255, 0.15);
+            }
+
 			@media (max-width: 720px) {
-				.map-container { height: 500px; }
+				.map-container { height: 550px; }
+                .map-header { padding: 1.5rem 1rem; margin-bottom: 2rem; }
+                .map-header h1 { font-size: 2rem; }
 			}
 		</style>
 	</head>
 	<body style="background-color: #0a0a0c;">
 		<Header />
 		<main>
-			<h1 style="color: var(--neon-blue);">{t('map.title')}</h1>
-			<p>{t('map.description')}</p>
+            <div class="map-header">
+                <h1>{t('map.title')}</h1>
+                <p style="color: var(--gray); max-width: 700px; margin: 0 auto;">
+                    {lang === 'en' ? 'Navigate through the shadows of Thailand. Our curated Google Map features over 300 verified locations including Go-Go bars, specialized massages, and elite clubs.' : 
+                     lang === 'zh-cn' ? '穿梭在泰国的霓虹魅影中。我们精心整理的 Google 地图收录了超过 300 個实测地点，包含 Go-Go Bar、特色按摩與高端俱樂部。' :
+                     '穿梭在泰國的霓虹魅影中。我們精心整理的 Google 地圖收錄了超過 300 個實測地點，包含 Go-Go Bar、特色按摩與高端俱樂部。'}
+                </p>
+                
+                <div class="map-info-grid">
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <strong style="color: #eee;">{lang === 'en' ? 'Precise Location' : '精確定位'}</strong><br>
+                            {lang === 'en' ? 'Directly integrated with Google Maps for easy navigation.' : '直連 Google Maps，支援手機一鍵導航。'}
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🔥</span>
+                        <div>
+                            <strong style="color: #eee;">{lang === 'en' ? 'Live Updates' : '實時更新'}</strong><br>
+                            {lang === 'en' ? 'Regularly verified by local scouts and veterans.' : '由當地探員與老司機定期校對更新。'}
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🔞</span>
+                        <div>
+                            <strong style="color: #eee;">{lang === 'en' ? 'Full Coverage' : '全域覆蓋'}</strong><br>
+                            {lang === 'en' ? 'BKK, Pattaya, Chiang Mai & more.' : '涵蓋曼谷、芭達雅、清邁等熱門戰區。'}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 			<div class="map-container">
 				<iframe width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen src="https://www.google.com/maps/d/embed?mid=1gav14SjV9ej4GBbs3IEyYzjL5Wro_SI"></iframe>
 			</div>
