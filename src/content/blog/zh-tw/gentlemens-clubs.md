@@ -1,5 +1,5 @@
 ---
-title: '曼谷高端玩家首選：Gentlemen''s Clubs (The Pimp / Sherbet)'
+title: '曼谷高端玩家首選：Gentlemen's Clubs (The Pimp / Sherbet)'
 description: '如果你預算充足，想要體驗更高層次的泰國夜生活，這些私人俱樂部是你的最佳選擇。'
 pubDate: 'Mar 11 2026'
 heroImage: '../../../assets/blog-placeholder-about.jpg'
@@ -18,7 +18,3 @@ heroImage: '../../../assets/blog-placeholder-about.jpg'
 1.  **開酒費**: 通常需要購買數瓶烈酒作為入會。
 2.  **Model 費用**: 陪同人員會依照「節數」(Starts) 計費。
 3.  **小費**: 建議準備一些百元鈔票發放。
-
-### 💡 適合對象
-
-如果你不喜歡路邊拉客的吵雜，想要有舒適的沙發、高品質的表演與一對一的聊天互動，Gentlemen's Clubs 絕對值得你規劃一晚的預算。

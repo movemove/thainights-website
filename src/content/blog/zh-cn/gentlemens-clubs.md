@@ -1,0 +1,20 @@
+---
+title: '曼谷高端玩家首选：Gentlemen's Clubs (The Pimp / Sherbet)'
+description: '如果你预算充足，想要体验更高层次的泰国夜生活，这些私人俱乐部是你的最佳选择。'
+pubDate: 'Mar 11 2026'
+heroImage: '../../../assets/blog-placeholder-about.jpg'
+---
+
+与 Nana Plaza 或 Soi Cowboy 的混乱不同，曼谷的 Gentlemen's Clubs (GC) 提供的是更高端、更具私密性的娱乐体验。这里通常需要开酒（Member），环境优雅，表演素质也更高。
+
+### 💎 顶级推荐
+
+- **The Pimp**: 曼谷最著名的 GC。场地巨大，有各种风格的包厢与泳池派对。这里的模特儿素质极高，适合多人聚会或预算宽裕的玩家。
+- **Sherbet / Monte Carlo**: 位于 Ekkamai 区，这里的气氛更像是一个高级酒吧，有现场乐队表演，是当地富裕阶层常去的地方。
+
+### 💰 消费模式
+
+这些地方通常采用「买酒开卡」的制度。
+1.  **开酒费**: 通常需要购买数瓶烈酒作为入会。
+2.  **Model 费用**: 陪同人员会依照「节数」(Starts) 计费。
+3.  **小费**: 建议准备一些百元钞票发放。
