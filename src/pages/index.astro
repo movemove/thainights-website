@@ -16,7 +16,7 @@ const t = useTranslations(lang);
 			main {
 				width: 100%;
 				max-width: 1000px;
-				margin: 0 auto;
+				margin: auto;
 				padding: 3rem 1rem;
 				color: #e0e0e0;
 			}
@@ -110,14 +110,24 @@ const t = useTranslations(lang);
 			
 			<div class="card-grid">
 				<div class="card">
-					<h3>📍 Nana Plaza</h3>
-					<p>{lang === 'en' ? 'The world\'s largest adult playground...' : '全球最大成人遊樂場，三層樓精華攻略...'}</p>
-					<a href={lang === 'zh-tw' ? '/blog/nana-plaza' : `/${lang}/blog/nana-plaza`} class="read-more">Read More →</a>
+					<h3>{t('index.nana.title')}</h3>
+					<p>{t('index.nana.desc')}</p>
+					<a href={lang === 'zh-tw' ? '/blog/nana-plaza' : `/${lang}/blog/nana-plaza`} class="read-more">{t('index.read_more')}</a>
 				</div>
 				<div class="card">
-					<h3>📍 Soi Cowboy</h3>
-					<p>{lang === 'en' ? 'Most popular neon alley...' : '最受歡迎的霓虹小巷，必去店家推薦...'}</p>
-					<a href={lang === 'zh-tw' ? '/blog/soi-cowboy' : `/${lang}/blog/soi-cowboy`} class="read-more">Read More →</a>
+					<h3>{t('index.cowboy.title')}</h3>
+					<p>{t('index.cowboy.desc')}</p>
+					<a href={lang === 'zh-tw' ? '/blog/soi-cowboy' : `/${lang}/blog/soi-cowboy`} class="read-more">{t('index.read_more')}</a>
+				</div>
+				<div class="card">
+					<h3>{t('index.pattaya.title')}</h3>
+					<p>{t('index.pattaya.desc')}</p>
+					<a href={lang === 'zh-tw' ? '/blog/pattaya-walking-street' : `/${lang}/blog/pattaya-walking-street`} class="read-more">{t('index.read_more')}</a>
+				</div>
+				<div class="card">
+					<h3>{t('index.massage.title')}</h3>
+					<p>{t('index.massage.desc')}</p>
+					<a href={lang === 'zh-tw' ? '/blog/massage-guide' : `/${lang}/blog/massage-guide`} class="read-more">{t('index.read_more')}</a>
 				</div>
 			</div>
 		</main>
