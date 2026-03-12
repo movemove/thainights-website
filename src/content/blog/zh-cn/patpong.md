@@ -2,7 +2,7 @@
 title: "Patpong 帕蓬夜市与红灯区：经典老牌区的魅力与陷阱"
 description: "曼谷历史最悠久的红灯区，这里有最著名的 Ping Pong Show，但也充满了游客陷阱。"
 pubDate: 'Mar 11 2026'
-heroImage: '../../../assets/blog-placeholder-about.jpg'
+
 ---
 
 帕蓬 (Patpong) 是曼谷最早发展起来的红灯区，位于 Silom 区。这里最独特的地方在于红灯区与「帕蓬夜市」紧密结合，你可以一边逛地摊买盗版 T-shirt，一边被两旁的 Go-Go Bar 拉客。

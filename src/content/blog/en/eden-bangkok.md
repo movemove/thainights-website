@@ -2,7 +2,6 @@
 title: "Eden's Forbidden Fruit: The Private Sensory Parties of Bangkok"
 description: "Push open those doors and leave your morals at the curb. This is the ultimate playground for grown-ups."
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 Eden Club is a more discreet and daring entity in Bangkok. It doesn't scream for attention, catering only to those who know where to look and how to follow the rules.

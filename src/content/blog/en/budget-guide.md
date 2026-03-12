@@ -2,7 +2,6 @@
 title: "The Price of Desire: 2026 Thailand Nightlife Budget Guide"
 description: "Spend your money where it counts. A comprehensive guide to controlling your budget while indulging elegantly."
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 To remain elegant within the spiral of Thai nightlife, you must have absolute control over your wallet. The market rates in 2026 have evolved significantly from years past.

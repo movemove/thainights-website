@@ -2,7 +2,7 @@
 title: "Bangkok's Elite Choice: Gentlemen's Clubs (The Pimp / Sherbet)"
 description: "For those with a healthy budget seeking a more sophisticated and private nightlife experience."
 pubDate: 'Mar 11 2026'
-heroImage: '../../../assets/blog-placeholder-about.jpg'
+
 ---
 
 Unlike the chaotic vibes of Nana Plaza or Soi Cowboy, Bangkok’s Gentlemen’s Clubs (GC) offer a premium, private entertainment experience. Membership usually involves buying bottles, with elegant surroundings and higher-caliber performers.

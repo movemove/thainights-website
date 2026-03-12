@@ -2,7 +2,7 @@
 title: "Bangkok Massage Guide: From Traditional Thai to 'Soapy' Experiences"
 description: "Thailand is a paradise for massage lovers. Learn the difference between 'pure' and 'not so pure' venues here."
 pubDate: 'Mar 11 2026'
-heroImage: '../../../assets/blog-placeholder-about.jpg'
+
 ---
 
 Thailand is a mecca for massage. However, there's often a fine line between therapeutic and "extra" services. Understanding the categories will help you enjoy the best experience.

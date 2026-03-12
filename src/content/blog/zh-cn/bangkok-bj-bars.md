@@ -2,7 +2,6 @@
 title: "霓虹下的快餐：曼谷口爆店 BJ Bar 的速食快感"
 description: "在最短的时间内，享受最极致的喉间温柔。这是一场没有负担的感官闪击战。"
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 如果你厌倦了冗长的调情与社交，曼谷散落在 Sukhumvit 各处的 BJ Bar 就是你最好的避风港。这里没有奢华的装修，只有一排排高脚椅与一群训练有素的女孩。

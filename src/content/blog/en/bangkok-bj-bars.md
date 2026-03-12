@@ -2,7 +2,6 @@
 title: "Neon Fast Food: The Instant Gratification of Bangkok BJ Bars"
 description: "Maximum pleasure in minimum time. A sensory blitzkrieg with zero emotional baggage."
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 If you’re tired of lengthy flirting and social games, the BJ Bars scattered across Sukhumvit are your ultimate refuge. No fancy decor here—just a row of high stools and a team of highly trained girls.

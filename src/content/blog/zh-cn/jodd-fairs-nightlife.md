@@ -2,7 +2,6 @@
 title: "夜市之后：Jodd Fairs 隐藏的微醺螺旋与邂逅"
 description: "在排队美食的尽头，隐藏着几间充满酒精与眼神交会的露天酒吧。"
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 Jodd Fairs 不只是吃火山排骨的地方。当夜幕深沉，游客散去，夜市后方的露天吧台才是真正的战场。

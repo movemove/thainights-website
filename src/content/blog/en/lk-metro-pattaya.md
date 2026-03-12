@@ -2,7 +2,6 @@
 title: "The Hidden Galaxy: LK Metro – Pattaya's Purest Indulgence"
 description: "Avoid the suffocating crowds of Walking Street. This L-shaped labyrinth in the city center glows with its own dark allure."
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 While Walking Street becomes increasingly commercial, LK Metro remains the sanctuary for true aficionados. The pace is slower, but the intimate atmosphere is far more addictive.

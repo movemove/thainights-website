@@ -2,7 +2,7 @@
 title: "曼谷高端玩家首选：Gentlemen's Clubs (The Pimp / Sherbet)"
 description: "如果你预算充足，想要体验更高层次的泰国夜生活，这些私人俱乐部是你的最佳选择。"
 pubDate: 'Mar 11 2026'
-heroImage: '../../../assets/blog-placeholder-about.jpg'
+
 ---
 
 与 Nana Plaza 或 Soi Cowboy 的混乱不同，曼谷的 Gentlemen's Clubs (GC) 提供的是更高端、更具私密性的娱乐体验。这里通常需要开酒（Member），环境优雅，表演素质也更高。

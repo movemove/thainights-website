@@ -2,7 +2,6 @@
 title: "伊甸园禁果：曼谷 Eden Club 的私密感官派对"
 description: "推开那扇门，所有的道德与束缚都将留在门外。这里是属于成人的最终乐园。"
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 Eden Club 是曼谷一个较为私密且大胆的存在。它不向大众开放，只接待那些懂得寻找、懂得规则的寻欢者。

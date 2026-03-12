@@ -2,7 +2,7 @@
 title: "芭提雅 Walking Street：全球老司机的终极朝圣地"
 description: "如果曼谷是夜生活的天堂，那么芭提雅 Walking Street 就是天堂的中心。这里有最疯狂的派对与最密集的酒吧。"
 pubDate: 'Mar 11 2026'
-heroImage: '../../../assets/blog-placeholder-about.jpg'
+
 ---
 
 来到芭提雅，如果没去过 Walking Street (步行街)，等于没来过。这条在海滨大道尽头的街，白天看似平凡，晚上 7 点封路后，这里会变成全世界能量最高的娱乐区域。

@@ -2,7 +2,6 @@
 title: "Beyond the Food Stalls: Jodd Fairs' Hidden Bars and Encounters"
 description: "At the end of the long food queues, there are open-air bars filled with alcohol and meaningful glances."
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 Jodd Fairs isn't just about Spicy Ribs. As the crowds thin out and the night deepens, the open-air bars at the back of the market become the true arena.

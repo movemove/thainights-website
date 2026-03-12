@@ -2,7 +2,6 @@
 title: "The Golden Microphone: Luxury Whispers in Thong Lo KTVs"
 description: "Inside lavish private rooms, the scent of expensive whiskey and perfume intertwines to create intimate nightly romances."
 pubDate: "2026-03-12"
-heroImage: "../../../assets/blog-placeholder-about.jpg"
 ---
 
 Step into a high-end Japanese-style KTV in the Thong Lo district, where the air is thick with the scent of fine scotch and delicate floral notes. Here, the street's chaos is replaced by the soft murmurs behind heavy, soundproof doors.

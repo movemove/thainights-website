@@ -2,7 +2,7 @@
 title: "曼谷 Nana Plaza 攻略：全球最大成人游乐场深度评测"
 description: "位于 Sukhumvit Soi 4 的三层楼传奇建筑，新手必看指南。"
 pubDate: 'Mar 11 2026'
-heroImage: '../../../assets/blog-placeholder-3.jpg'
+
 ---
 
 Nana Plaza 被誉为「世界上最大的成人游乐场」。位于 Sukhumvit Soi 4，这座三层楼的建筑物就像是一个微型都市，每一层都有其独特的风格与魅力。

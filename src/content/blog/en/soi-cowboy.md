@@ -2,7 +2,7 @@
 title: "Soi Cowboy Guide: Bangkok's Most Iconic Neon Red-Light District"
 description: "This neon-drenched alleyway is the epitome of Bangkok nightlife. Featuring legendary spots like Baccara and Crazy House."
 pubDate: 'Mar 11 2026'
-heroImage: '../../../assets/blog-placeholder-4.jpg'
+
 ---
 
 Soi Cowboy is a 150-meter long alley located between Sukhumvit Soi 21 and Soi 23 (next to BTS Asok). Despite its short length, it houses over 40 Go-Go Bars and is one of the most photographed nightlife spots in Bangkok.
