@@ -2,7 +2,7 @@
 title: 'Soi Cowboy 霓虹小巷：曼谷最受歡迎的 Go-Go Bar 聚集地'
 description: '這條充滿霓虹燈的小巷是曼谷夜生活的縮影。推薦 Baccara、Crazy House 等名店。'
 pubDate: 'Mar 11 2026'
-heroImage: '../../assets/blog-placeholder-4.jpg'
+heroImage: '../../../assets/blog-placeholder-4.jpg'
 ---
 
 Soi Cowboy 是一條長約 150 公尺的小巷子，位於 Sukhumvit Soi 21 與 Soi 23 之間（捷運 Asok 站旁）。雖然巷子不長，但密集地分佈了超過 40 家 Go-Go Bar，是曼谷觀光客最愛打卡的地點之一。
