@@ -52,6 +52,8 @@ const { title, description, image = FallbackImage } = Astro.props;
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:locale" content="zh_TW" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image.src, Astro.url)} />
@@ -62,3 +64,30 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+
+<!-- Structured Data -->
+<script type="application/ld+json" is:inline set:html={JSON.stringify({
+	"@context": "https://schema.org",
+	"@type": Astro.url.pathname === '/' ? "WebSite" : "Article",
+	"headline": title,
+	"description": description,
+	"image": [new URL(image.src, Astro.url)],
+	"author": {
+		"@type": "Organization",
+		"name": "ThaiNights",
+		"url": "https://thainights.net"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "ThaiNights",
+		"logo": {
+			"@type": "ImageObject",
+			"url": new URL('/favicon.svg', Astro.site)
+		}
+	},
+	"datePublished": "2026-03-11T08:00:00+08:00",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": Astro.url.href
+	}
+})} />
