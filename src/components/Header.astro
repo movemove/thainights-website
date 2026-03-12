@@ -7,8 +7,9 @@ import { languages } from '../i18n/ui';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-// Helper to construct link for other languages
-const currentPath = Astro.url.pathname.replace(/^\/(en|zh-cn)\//, '/');
+// Improved URL matching for language switcher
+const pathname = Astro.url.pathname;
+const currentPath = pathname.replace(/^\/(en|zh-cn)(\/|$)/, '/');
 ---
 
 <header>
@@ -21,11 +22,16 @@ const currentPath = Astro.url.pathname.replace(/^\/(en|zh-cn)\//, '/');
 		</div>
         <div class="lang-switcher">
             <select onchange="window.location.href = this.value">
-                {Object.entries(languages).map(([code, name]) => (
-                    <option value={code === 'zh-tw' ? currentPath : `/${code}${currentPath}`} selected={code === lang}>
-                        {name}
-                    </option>
-                ))}
+                {Object.entries(languages).map(([code, name]) => {
+                    const url = code === 'zh-tw' 
+                        ? currentPath 
+                        : `/${code}${currentPath.startsWith('/') ? currentPath : '/' + currentPath}`;
+                    return (
+                        <option value={url} selected={code === lang}>
+                            {name}
+                        </option>
+                    );
+                })}
             </select>
         </div>
 	</nav>
