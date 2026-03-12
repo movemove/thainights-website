@@ -10,26 +10,26 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<head>
 		<BaseHead title={`${SITE_TITLE} - 泰國暗黑行程指南 | 曼谷夜生活評測、地圖、避坑`} description="ThaiNights.net 是最專業的泰國夜生活指南。提供曼谷 Nana Plaza, Soi Cowboy 等紅燈區深度評測、互動地圖、泰國按摩避坑攻略，支援繁體與簡體中文。" />
 		<style>
-			:root {
-				--bg-dark: #0a0a0c;
-				--neon-pink: #ff00ff;
-				--neon-blue: #00f2ff;
-			}
 			main {
 				width: 100%;
 				max-width: 1000px;
 				margin: 0 auto;
-				padding: 3em 1em;
+				padding: 3rem 1rem;
 				color: #e0e0e0;
 			}
 			.hero {
 				text-align: center;
-				margin-bottom: 3rem;
+				margin-bottom: 4rem;
 			}
 			.hero h1 {
 				font-size: 3.5rem;
 				color: var(--neon-blue);
 				text-shadow: 0 0 20px var(--neon-blue);
+				margin-bottom: 0.5rem;
+			}
+			.hero p {
+				font-size: 1.2rem;
+				color: var(--gray);
 			}
 			.card-grid {
 				display: grid;
@@ -41,11 +41,24 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				padding: 1.5rem;
 				border-radius: 12px;
 				border: 1px solid #333;
-				transition: transform 0.2s;
+				transition: all 0.3s ease;
+				display: flex;
+				flex-direction: column;
 			}
 			.card:hover {
 				transform: translateY(-5px);
 				border-color: var(--neon-pink);
+				box-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
+			}
+			.card h3 {
+				margin-top: 0;
+				font-size: 1.5rem;
+			}
+			.card p {
+				flex: 1;
+				color: var(--gray);
+				font-size: 1rem;
+				margin-bottom: 1.5rem;
 			}
 			.btn {
 				background: var(--neon-pink);
@@ -56,6 +69,30 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				display: inline-block;
 				font-weight: bold;
 				margin-top: 1rem;
+				transition: opacity 0.2s;
+			}
+			.btn:hover {
+				opacity: 0.9;
+			}
+			.read-more {
+				color: var(--neon-pink);
+				font-weight: bold;
+				text-decoration: none;
+				align-self: flex-start;
+			}
+			@media (max-width: 720px) {
+				.hero h1 {
+					font-size: 2.2rem;
+				}
+				.hero p {
+					font-size: 1rem;
+				}
+				main {
+					padding: 2rem 1rem;
+				}
+				.card-grid {
+					gap: 1.5rem;
+				}
 			}
 		</style>
 	</head>
@@ -71,13 +108,23 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			<div class="card-grid">
 				<div class="card">
 					<h3>📍 Nana Plaza</h3>
-					<p>全球最大成人遊樂場，三層樓精華攻略...</p>
-					<a href="/blog/nana-plaza" style="color: var(--neon-pink);">閱讀評測 →</a>
+					<p>全球最大成人遊樂場，三層樓精華攻略、店家推薦與防坑提醒。</p>
+					<a href="/blog/nana-plaza" class="read-more">閱讀評測 →</a>
 				</div>
 				<div class="card">
 					<h3>📍 Soi Cowboy</h3>
-					<p>最受歡迎的霓虹小巷，必去店家推薦...</p>
-					<a href="/blog/soi-cowboy" style="color: var(--neon-pink);">閱讀評測 →</a>
+					<p>最受歡迎的霓虹小巷，必去店家推薦，感受曼谷最經典的夜生活。</p>
+					<a href="/blog/soi-cowboy" class="read-more">閱讀評測 →</a>
+				</div>
+				<div class="card">
+					<h3>📍 芭達雅步行街</h3>
+					<p>全球老司機的終極朝聖地，Walking Street 實戰生存守則。</p>
+					<a href="/blog/pattaya-walking-street" class="read-more">閱讀評測 →</a>
+				</div>
+				<div class="card">
+					<h3>💆 按摩全攻略</h3>
+					<p>從正統泰式按摩、抓龍筋到肥皂按摩，完整分類與店家指南。</p>
+					<a href="/blog/massage-guide" class="read-more">閱讀評測 →</a>
 				</div>
 			</div>
 		</main>

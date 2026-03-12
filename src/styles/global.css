@@ -14,10 +14,15 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body {
 	font-family: "Atkinson", 'PingFang TC', 'Microsoft JhengHei', sans-serif;
-	margin: 0;
-	padding: 0;
 	text-align: left;
 	background: var(--bg-dark);
 	word-wrap: break-word;
@@ -25,14 +30,13 @@ body {
 	color: rgb(var(--gray-dark));
 	font-size: 18px;
 	line-height: 1.6;
-    overflow-x: hidden; /* 防止左右滑動 */
 }
 
 main {
 	width: 100%;
 	max-width: 1000px;
 	margin: auto;
-	padding: 2em 1rem; /* 增加基礎內邊距 */
+	padding: 2rem 1rem;
 }
 
 h1, h2, h3, h4 {
@@ -58,6 +62,7 @@ img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 12px;
+    display: block;
 }
 
 .prose {
@@ -66,12 +71,17 @@ img {
     margin: auto;
 }
 
+/* Fix for Astro generated images */
+.prose img {
+    margin: 2rem auto;
+}
+
 @media (max-width: 720px) {
 	body {
 		font-size: 16px;
 	}
 	main {
-		padding: 1.5em 1rem;
+		padding: 1.5rem 1rem;
 	}
     h1 { font-size: 2rem; }
     h2 { font-size: 1.6rem; }

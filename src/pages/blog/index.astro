@@ -13,12 +13,15 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="zh-TW">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={`泰國夜遊攻略 - ${SITE_TITLE}`} description="精選曼谷、芭達雅紅燈區、按摩、Gentlemen's Clubs 深度評測。" />
 		<style>
 			main {
-				width: 960px;
+				width: 100%;
+				max-width: 1000px;
+				margin: auto;
+				padding: 2em 1rem;
 			}
 			ul {
 				display: flex;
@@ -42,6 +45,7 @@ const posts = (await getCollection('blog')).sort(
 			}
 			ul li:first-child img {
 				width: 100%;
+				max-width: 800px;
 			}
 			ul li:first-child .title {
 				font-size: 2.369rem;
@@ -49,44 +53,41 @@ const posts = (await getCollection('blog')).sort(
 			ul li img {
 				margin-bottom: 0.5rem;
 				border-radius: 12px;
+				width: 100%;
 			}
 			ul li a {
 				display: block;
 			}
 			.title {
 				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
+				color: var(--neon-blue);
+				line-height: 1.2;
 			}
 			.date {
 				margin: 0;
-				color: rgb(var(--gray));
+				color: var(--gray);
 			}
 			ul li a:hover h4,
 			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
+				color: var(--neon-pink);
 			}
 			@media (max-width: 720px) {
 				ul {
-					gap: 0.5em;
+					gap: 1.5em;
 				}
 				ul li {
 					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
 				}
 				ul li:first-child .title {
-					font-size: 1.563em;
+					font-size: 1.8rem;
 				}
+                .title {
+                    font-size: 1.5rem;
+                }
 			}
 		</style>
 	</head>
-	<body>
+	<body style="background-color: #0a0a0c;">
 		<Header />
 		<main>
 			<section>
@@ -96,7 +97,7 @@ const posts = (await getCollection('blog')).sort(
 							<li>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
+										<img src={post.data.heroImage} alt="" />
 									)}
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
