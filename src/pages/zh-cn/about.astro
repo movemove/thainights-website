@@ -1,0 +1,29 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="关于 ThaiNights"
+	description="最专业的泰国夜生活指南"
+	pubDate={new Date('March 11 2026')}
+	heroImage={AboutHeroImage}
+>
+	<p>
+		ThaiNights.net 致力于提供最真实、最详细的泰国夜生活探险指南。我们的目标是帮助所有前往泰国的游客，不论是初学者还是老司机，都能找到最适合自己的行程，并成功避开所有可能的陷阱。
+	</p>
+
+	<p>
+		本站内容包含：
+        <ul style="margin: 1.5rem 0; padding-left: 1.5rem; color: #ccc;">
+            <li>曼谷、芭提雅红灯区 (Go-Go Bar) 深度评测</li>
+            <li>互动式夜游地图，精确定位名店位置</li>
+            <li>泰式按摩、抓龙筋推荐与心得分享</li>
+            <li>最新的消费情报与防坑攻略</li>
+        </ul>
+	</p>
+
+    <p>
+        如有任何建议或合作需求，欢迎通过下方讨论区与我们联系。
+    </p>
+</Layout>

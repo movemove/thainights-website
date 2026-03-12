@@ -1,16 +1,33 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { languages } from '../i18n/ui';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+// Helper to construct link for other languages
+const currentPath = Astro.url.pathname.replace(/^\/(en|zh-cn)\//, '/');
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href={lang === 'zh-tw' ? '/' : `/${lang}/`}>{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">首頁</HeaderLink>
-			<HeaderLink href="/blog">攻略</HeaderLink>
-			<HeaderLink href="/map">地圖</HeaderLink>
+			<HeaderLink href={lang === 'zh-tw' ? '/' : `/${lang}/`}>{t('nav.home')}</HeaderLink>
+			<HeaderLink href={lang === 'zh-tw' ? '/blog' : `/${lang}/blog`}>{t('nav.blog')}</HeaderLink>
+			<HeaderLink href={lang === 'zh-tw' ? '/map' : `/${lang}/map`}>{t('nav.map')}</HeaderLink>
 		</div>
+        <div class="lang-switcher">
+            <select onchange="window.location.href = this.value">
+                {Object.entries(languages).map(([code, name]) => (
+                    <option value={code === 'zh-tw' ? currentPath : `/${code}${currentPath}`} selected={code === lang}>
+                        {name}
+                    </option>
+                ))}
+            </select>
+        </div>
 	</nav>
 </header>
 <style>
@@ -55,16 +72,27 @@ import HeaderLink from './HeaderLink.astro';
         display: flex;
         gap: 10px;
     }
+    .lang-switcher select {
+        background: #0a0a0c;
+        color: #e0e0e0;
+        border: 1px solid #444;
+        padding: 2px 5px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+    }
 	@media (max-width: 600px) {
         nav {
             padding: 0.8rem;
+            flex-wrap: wrap;
+            gap: 10px;
         }
-        h2 {
-            font-size: 1.1em;
+        .internal-links {
+            order: 2;
+            width: 100%;
+            justify-content: center;
         }
-        nav a {
-            font-size: 0.9rem;
-            padding: 0.3em;
+        .lang-switcher {
+            order: 1;
         }
 	}
 </style>

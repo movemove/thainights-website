@@ -1,13 +1,13 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
-import BlogPost from '../../layouts/BlogPost.astro';
+import BlogPost from '../../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog', ({ id }) => {
-		return id.startsWith('zh-tw/');
+		return id.startsWith('en/');
 	});
 	return posts.map((post) => ({
-		params: { slug: post.id.replace('zh-tw/', '') },
+		params: { slug: post.id.replace('en/', '') },
 		props: post,
 	}));
 }

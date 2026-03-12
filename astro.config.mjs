@@ -8,4 +8,11 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	site: 'https://thainights.net',
 	integrations: [mdx(), sitemap()],
+	i18n: {
+		defaultLocale: 'zh-tw',
+		locales: ['zh-tw', 'zh-cn', 'en'],
+		routing: {
+			prefixDefaultLocale: false,
+		},
+	},
 });
