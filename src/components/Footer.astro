@@ -1,11 +1,15 @@
 ---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
 const today = new Date();
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <footer>
-	&copy; {today.getFullYear()} ThaiNights.net - 曼谷夜生活探險指南 | 僅供學術與文化交流參考
+	&copy; {today.getFullYear()} {t('footer.text')}
     <div style="margin-top: 10px; font-family: monospace; font-size: 0.7rem; opacity: 0.5;">
-        v1.0.2-21fbec1
+        v1.0.3-7a7983c
     </div>
 </footer>
 <style>
