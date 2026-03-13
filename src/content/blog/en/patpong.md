@@ -1,6 +1,6 @@
 ---
 title: "Patpong Night Market & Red Light District: Charm and Traps"
-heroImage: '../../../assets/hero/patpong.webp'
+heroImage: '../../../assets/hero/patpong.png'
 description: "Bangkok's oldest red-light district, home to the famous Ping Pong Shows and many tourist traps."
 pubDate: 'Mar 11 2026'
 

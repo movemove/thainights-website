@@ -63,11 +63,12 @@ def download_and_process():
         
         # 2. Download
         dest = f"/tmp/{filename}"
-        subprocess.run(["gog", "drive", "download", file_id, "-o", dest], env=env)
+        subprocess.run(["gog", "drive", "download", file_id, "--out", dest], env=env)
         
-        # 3. Convert to WebP and move to assets
-        final_path = f"/home/alice/.openclaw/workspace/thainights_pages/src/assets/hero/{target_slug}.webp"
-        subprocess.run(["ffmpeg", "-y", "-i", dest, "-q:v", "80", final_path])
+        # 3. Save as PNG (matching input format or simple copy)
+        final_path = f"/home/alice/.openclaw/workspace/thainights_pages/src/assets/hero/{target_slug}.png"
+        import shutil
+        shutil.copy(dest, final_path)
         
         processed_slugs.add(target_slug)
         
@@ -81,21 +82,19 @@ def update_markdown(slugs):
             if os.path.exists(md_path):
                 print(f"Updating {md_path} with heroImage...")
                 with open(md_path, 'r') as f:
-                    lines = f.readlines()
+                    content = f.read()
                 
-                # Check if heroImage already exists
-                has_hero = any(line.startswith("heroImage:") for line in lines)
+                # Use .png extension
+                image_line = f"heroImage: '../../../assets/hero/{slug}.png'"
                 
-                if not has_hero:
-                    # Insert after title:
-                    new_lines = []
-                    for line in lines:
-                        new_lines.append(line)
-                        if line.startswith("title:"):
-                            new_lines.append(f"heroImage: '../../../assets/hero/{slug}.webp'\n")
-                    
-                    with open(md_path, 'w') as f:
-                        f.writelines(new_lines)
+                if "heroImage:" in content:
+                    import re
+                    content = re.sub(r'heroImage:.*', image_line, content)
+                else:
+                    content = content.replace("pubDate:", f"{image_line}\npubDate:")
+                
+                with open(md_path, 'w') as f:
+                    f.write(content)
 
 if __name__ == "__main__":
     slugs = download_and_process()

@@ -1,6 +1,6 @@
 ---
 title: "The Hidden Galaxy: LK Metro – Pattaya's Purest Indulgence"
-heroImage: '../../../assets/hero/lk-metro-pattaya.webp'
+heroImage: '../../../assets/hero/lk-metro-pattaya.png'
 description: "Avoid the suffocating crowds of Walking Street. This L-shaped labyrinth in the city center glows with its own dark allure."
 pubDate: "2026-03-12"
 ---

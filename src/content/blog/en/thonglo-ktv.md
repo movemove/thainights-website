@@ -1,6 +1,6 @@
 ---
 title: "The Golden Microphone: Luxury Whispers in Thong Lo KTVs"
-heroImage: '../../../assets/hero/thonglo-ktv.webp'
+heroImage: '../../../assets/hero/thonglo-ktv.png'
 description: "Inside lavish private rooms, the scent of expensive whiskey and perfume intertwines to create intimate nightly romances."
 pubDate: "2026-03-12"
 ---

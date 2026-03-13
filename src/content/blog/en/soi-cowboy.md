@@ -1,6 +1,6 @@
 ---
 title: "Soi Cowboy Guide: Bangkok's Most Iconic Neon Red-Light District"
-heroImage: '../../../assets/hero/soi-cowboy.webp'
+heroImage: '../../../assets/hero/soi-cowboy.png'
 description: "This neon-drenched alleyway is the epitome of Bangkok nightlife. Featuring legendary spots like Baccara and Crazy House."
 pubDate: 'Mar 11 2026'
 

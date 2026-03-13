@@ -1,6 +1,6 @@
 ---
 title: "芭達雅 Soi 6：白日夢想家，整條街都是你的後宮"
-heroImage: '../../../assets/hero/soi6-pattaya.webp'
+heroImage: '../../../assets/hero/soi6-pattaya.png'
 description: "當陽光灑在 Soi 6，那不僅是街道，而是荷爾蒙爆炸的起點。"
 pubDate: "Mar 12 2026"
 ---
