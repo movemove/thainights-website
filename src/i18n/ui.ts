@@ -28,6 +28,7 @@ export const ui = {
     'index.pattaya.desc': '全球老司機的終極朝聖地，Walking Street 實戰生存守則。',
     'index.massage.title': '💆 按摩全攻略',
     'index.massage.desc': '從正統泰式按摩、抓龍筋到肥皂按摩，完整分類與店家指南。',
+    'index.read_more': '閱讀評測 →',
     'footer.text': 'ThaiNights.net - 泰國夜生活探險指南 | 僅供學術與文化交流參考',
     'footer.warning': '⚠️ 警告：本站內容包含成人資訊，未滿 18 歲者請勿進入。',
   },
