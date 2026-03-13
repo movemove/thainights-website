@@ -89,9 +89,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					<slot />
 
 					<!-- Cusdis Comment Section -->
-					<div style="margin-top: 6rem; margin-bottom: 8rem; border-top: 1px solid #333; padding-top: 3rem; background: #16161a; padding: 2rem; border-radius: 12px; min-height: 600px;">
-						<h3 style="color: var(--neon-pink); margin-top: 0;">💬 討論區 (匿名留言)</h3>
-						<p style="font-size: 0.8rem; color: #888; margin-bottom: 2rem;">填寫暱稱即可留言，Email 可不填。內容將在審核後顯示。</p>
+					<div style="margin-top: 8rem; border-top: 1px solid #333; padding: 4rem 0;">
+						<h3 style="color: var(--neon-pink); text-align: center; margin-bottom: 1rem;">💬 討論區</h3>
+						<p style="font-size: 0.85rem; color: #888; text-align: center; margin-bottom: 3rem;">免登入匿名留言，填寫暱稱即可。內容審核後顯示。</p>
 						<div id="cusdis_thread"
 							data-host="https://cusdis.com"
 							data-app-id="77aeb03e-4803-4df8-99d4-527051ac70a5"
@@ -100,7 +100,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							data-page-title={title}
 							data-theme="dark"
 						></div>
-						<script is:inline async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+						<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 					</div>
 				</div>
 			</article>
