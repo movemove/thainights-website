@@ -33,4 +33,4 @@ pubDate: 'Mar 11 2026'
 
 ### 📸 氛圍特寫：足尖的溫柔
 在這場感官螺旋中，每一處細節都充滿了誘惑。
-![美腳特寫](../../../assets/gallery/legs_1.webp)
+![美腳特寫](../../../assets/gallery/legs_1.png)

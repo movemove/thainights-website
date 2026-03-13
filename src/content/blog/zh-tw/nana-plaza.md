@@ -23,4 +23,4 @@ Nana Plaza 被譽為「世界上最大的成人遊樂場」。位於 Sukhumvit S
 
 ### 👠 深夜霓虹下的長腿
 當高跟鞋踩在金屬欄杆上，那種張力是泰國深夜最美的風景。
-![美腳與高跟鞋](../../../assets/gallery/legs_2.webp)
+![美腳與高跟鞋](../../../assets/gallery/legs_2.png)
