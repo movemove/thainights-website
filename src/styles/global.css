@@ -76,10 +76,6 @@ img {
     margin: 2rem auto;
 }
 
-article {
-    padding-bottom: 2rem; /* 恢復正常內邊距，由留言板容器控制間距 */
-}
-
 @media (max-width: 720px) {
 	body {
 		font-size: 16px;

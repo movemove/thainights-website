@@ -21,11 +21,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<style>
 			main {
 				width: 100%;
-				max-width: 100%;
-				margin: 0;
-                min-height: 100vh;
-                display: flex;
-                flex-direction: column;
+				max-width: 1000px;
+				margin: auto;
+				padding: 0 0 4rem 0;
 			}
 			.hero-image {
 				width: 100%;
@@ -35,14 +33,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				display: block;
 				margin: 0 auto;
 				width: 100%;
-				max-width: 1020px;
 			}
 			.prose {
 				width: 100%;
 				max-width: 800px;
 				margin: auto;
 				padding: 1rem;
-                flex: 1;
 			}
 			.title {
 				margin-bottom: 2em;
@@ -58,59 +54,29 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				color: var(--gray);
 			}
             
-            /* Enhanced Comment Section */
-            .discussion-area {
-                background: #111114; /* Slightly different dark for separation */
-                width: 100%;
-                margin-top: 15rem; /* Massive top gap as requested */
-                padding: 8rem 0; /* Massive vertical padding */
-                border-top: 2px solid #222;
+            .comment-section {
+                margin-top: 5rem;
+                padding-top: 2rem;
+                border-top: 1px solid #333;
             }
 
-            .comment-container {
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 0 1.5rem;
-            }
-
-            .discussion-header {
-                text-align: center;
-                margin-bottom: 4rem;
-            }
-
-            .discussion-header h3 {
+            .comment-section h3 {
                 color: var(--neon-pink);
-                font-size: 2.5rem;
-                margin-bottom: 1rem;
-            }
-
-            .discussion-header p {
-                color: #888;
-                font-size: 1.1rem;
+                margin-bottom: 2rem;
             }
 
 			@media (max-width: 720px) {
-				.hero-image {
-					margin-bottom: 1rem;
-				}
-				.title {
-					margin-bottom: 1rem;
-				}
 				.title h1 {
 					font-size: 1.8rem;
 				}
-                .discussion-area {
-                    margin-top: 10rem;
-                    padding: 5rem 0;
-                }
-                .discussion-header h3 {
-                    font-size: 2rem;
+                .comment-section {
+                    margin-top: 3rem;
                 }
 			}
 		</style>
 	</head>
 
-	<body style="background-color: #0a0a0c; color: #e0e0e0; margin: 0; padding: 0;">
+	<body style="background-color: #0a0a0c; color: #e0e0e0; margin: 0;">
 		<Header />
 		<main>
 			<article>
@@ -128,28 +94,23 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr style="border: none; border-top: 1px solid #333;" />
 					</div>
 					<slot />
+
+                    <!-- Simplified Comment Section inside .prose for better alignment -->
+                    <div class="comment-section">
+                        <h3>💬 討論區</h3>
+                        <div id="cusdis_thread"
+                            data-host="https://cusdis.com"
+                            data-app-id="77aeb03e-4803-4df8-99d4-527051ac70a5"
+                            data-page-id={Astro.url.pathname}
+                            data-page-url={Astro.url.href}
+                            data-page-title={title}
+                            data-theme="dark"
+                            style="min-height: 200px; width: 100%;"
+                        ></div>
+                        <script is:inline async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+                    </div>
 				</div>
 			</article>
-
-            <!-- New Full-Width Discussion Section -->
-            <section class="discussion-area">
-                <div class="comment-container">
-                    <div class="discussion-header">
-                        <h3>💬 討論區</h3>
-                        <p>免登入匿名留言，填寫暱稱即可。內容審核後顯示。</p>
-                    </div>
-                    
-                    <div id="cusdis_thread"
-                        data-host="https://cusdis.com"
-                        data-app-id="77aeb03e-4803-4df8-99d4-527051ac70a5"
-                        data-page-id={Astro.url.pathname}
-                        data-page-url={Astro.url.href}
-                        data-page-title={title}
-                        data-theme="dark"
-                    ></div>
-                    <script is:inline async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-                </div>
-            </section>
 		</main>
 		<Footer />
 	</body>
