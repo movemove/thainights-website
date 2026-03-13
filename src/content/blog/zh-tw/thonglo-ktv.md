@@ -1,5 +1,6 @@
 ---
 title: "曼谷黃金麥克風：Thong Lo 高級 KTV 的奢華與呢喃"
+heroImage: '../../../assets/hero/thonglo-ktv.webp'
 description: "在奢華的包廂內，酒精與香水味交織，譜出一段段深夜的私密戀曲。"
 pubDate: "2026-03-12"
 ---

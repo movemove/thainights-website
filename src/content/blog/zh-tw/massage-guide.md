@@ -1,5 +1,6 @@
 ---
 title: "曼谷按摩全攻略：從普通泰式按摩到「浴室」深度體驗"
+heroImage: '../../../assets/hero/massage-guide.webp'
 description: "泰國按摩種類繁多，從路邊 300 泰銖的平價按摩，到充滿儀式感的「肥皂按摩」，一篇教你如何選擇。"
 pubDate: 'Mar 11 2026'
 

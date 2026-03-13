@@ -1,5 +1,6 @@
 ---
 title: "Bangkok Massage Guide: From Traditional Thai to 'Soapy' Experiences"
+heroImage: '../../../assets/hero/massage-guide.webp'
 description: "Thailand is a paradise for massage lovers. Learn the difference between 'pure' and 'not so pure' venues here."
 pubDate: 'Mar 11 2026'
 

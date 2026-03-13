@@ -1,5 +1,6 @@
 ---
 title: "The Water Feast: Maria & Long Beach – Bangkok's Soapy Massage"
+heroImage: '../../../assets/hero/soapy-massage-deep.webp'
 description: "Inside the warm steam, your exhaustion and defenses will dissolve into a sea of gentle foam."
 pubDate: "2026-03-12"
 ---

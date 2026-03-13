@@ -1,0 +1,97 @@
+import json
+import urllib.request
+import time
+import random
+
+SERVER_ADDRESS = "192.168.1.162:8188"
+
+# 🧬 Facial & Identity Variety Pool
+NATIONALITIES = [
+    "Northern Thai beauty with very fair skin and heart-shaped face",
+    "Exotic Isan Thai girl with striking tanned skin and high cheekbones",
+    "Bangkok socialite style with oval face and elegant features",
+    "Mixed heritage Thai-European (Luk khrueng) with deep-set eyes",
+    "Thai-Chinese heritage girl with bright eyes and slim face"
+]
+
+FACIAL_DETAILS = [
+    "seductive almond-shaped eyes",
+    "full lips with a gentle pout",
+    "soft youthful features and a warm smile",
+    "sharp jawline and mysterious gaze",
+    "playful expression with sparkling eyes"
+]
+
+HAIRSTYLES = [
+    "sleek long straight black hair",
+    "messy beach waves with honey highlights",
+    "chic short bob cut with bangs",
+    "elegant high ponytail",
+    "voluminous dark curls"
+]
+
+OUTFITS = [
+    "vibrant red velvet bodycon dress", 
+    "black sheer lace corset", 
+    "modern gold Thai silk wrap dress", 
+    "denim micro-shorts with a tied-front shirt", 
+    "sparkly silver sequin party dress",
+    "crisp white micro bikini with gold chain straps",
+    "emerald green satin cocktail dress",
+    "stylish leather jacket over a black lace top"
+]
+
+# The Base Workflow
+BASE_WORKFLOW = {
+  "103": { "inputs": { "vae_name": "qwen_image_vae.safetensors" }, "class_type": "VAELoader" },
+  "104": { "inputs": { "clip_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors", "type": "qwen_image", "device": "default" }, "class_type": "CLIPLoader" },
+  "105": { "inputs": { "unet_name": "qwen_image_2512_fp8_e4m3fn.safetensors", "weight_dtype": "default" }, "class_type": "UNETLoader" },
+  "106": { "inputs": { "seed": 0, "steps": 2, "cfg": 1, "sampler_name": "euler", "scheduler": "simple", "denoise": 1, "model": ["110", 0], "positive": ["108", 0], "negative": ["128", 0], "latent_image": ["107", 0] }, "class_type": "KSampler" },
+  "107": { "inputs": { "width": 1024, "height": 1024, "batch_size": 1 }, "class_type": "EmptySD3LatentImage" },
+  "108": { "inputs": { "text": "", "clip": ["104", 0] }, "class_type": "CLIPTextEncode" },
+  "109": { "inputs": { "samples": ["106", 0], "vae": ["103", 0] }, "class_type": "VAEDecode" },
+  "110": { "inputs": { "shift": 3, "model": ["114", 0] }, "class_type": "ModelSamplingAuraFlow" },
+  "114": { "inputs": { "lora_name": "Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors", "strength_model": 1, "model": ["105", 0] }, "class_type": "LoraLoaderModelOnly" },
+  "123": { "inputs": { "filename_prefix": "", "images": ["109", 0] }, "class_type": "SaveImage" },
+  "128": { "inputs": { "conditioning": ["108", 0] }, "class_type": "ConditioningZeroOut" }
+}
+
+LOCATIONS = [
+    ("nana_plaza", "standing on a terrace at Nana Plaza under hot pink neon"),
+    ("soi_cowboy", "in the rain-slicked alley of Soi Cowboy with red neon reflections"),
+    ("thermae", "sipping a drink in the dimly lit legendary Thermae basement"),
+    ("soapy_massage", "reclining on a velvet lounge inside a luxury Thai spa"),
+    ("pattaya_ws", "walking through the chaotic neon of Pattaya Walking Street"),
+    ("massage_parlor", "sitting in a warm candle-lit traditional Thai massage room")
+]
+
+def queue_ultimate_variety():
+    print("🚀 Launching Ultimate Facial & Fashion Variety Pack...")
+    for name, location in LOCATIONS:
+        print(f"Queuing {name} with unique face and style...")
+        for i in range(1, 3):
+            identity = random.choice(NATIONALITIES)
+            face = random.choice(FACIAL_DETAILS)
+            hair = random.choice(HAIRSTYLES)
+            outfit = random.choice(OUTFITS)
+            
+            prompt = f"Cinematic high-end photography of {identity}. She has {face} and {hair}. She is wearing {outfit}, {location}. Perfectly smooth skin, no moisture, hyper-realistic facial features, professional studio-level lighting, masterpiece, 8k."
+            
+            workflow = BASE_WORKFLOW.copy()
+            workflow["108"]["inputs"]["text"] = prompt
+            workflow["123"]["inputs"]["filename_prefix"] = f"ThaiNights_FaceVar_{name}_{i:02d}"
+            workflow["106"]["inputs"]["seed"] = int(time.time() * 1000) + random.randint(1, 999)
+            
+            p = {"prompt": workflow}
+            data = json.dumps(p).encode('utf-8')
+            req = urllib.request.Request(f"http://{SERVER_ADDRESS}/prompt", data=data)
+            try:
+                urllib.request.urlopen(req)
+                print(f"  [OK] Version {i:02d}: {identity.split(' ')[0]} face, {outfit}")
+                time.sleep(0.3)
+            except Exception as e:
+                print(f"  [Error]: {e}")
+
+if __name__ == "__main__":
+    queue_ultimate_variety()
+    print("\n--- The faces of ThaiNights are now truly diverse. Check your ComfyUI queue! ---")

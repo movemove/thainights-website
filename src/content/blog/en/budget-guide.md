@@ -1,5 +1,6 @@
 ---
 title: "The Price of Desire: 2026 Thailand Nightlife Budget Guide"
+heroImage: '../../../assets/hero/budget-guide.webp'
 description: "Spend your money where it counts. A comprehensive guide to controlling your budget while indulging elegantly."
 pubDate: "2026-03-12"
 ---

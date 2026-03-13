@@ -1,5 +1,6 @@
 ---
 title: "夜市之後：Jodd Fairs 隱藏的微醺螺旋與邂逅"
+heroImage: '../../../assets/hero/jodd-fairs-nightlife.webp'
 description: "在排隊美食的盡頭，隱藏著幾間充滿酒精與眼神交會的露天酒吧。"
 pubDate: "2026-03-12"
 ---

@@ -1,5 +1,6 @@
 ---
 title: "曼谷 Nana Plaza 攻略：全球最大成人游乐场深度评测"
+heroImage: '../../../assets/hero/nana-plaza.webp'
 description: "位于 Sukhumvit Soi 4 的三层楼传奇建筑，新手必看指南。"
 pubDate: 'Mar 11 2026'
 
