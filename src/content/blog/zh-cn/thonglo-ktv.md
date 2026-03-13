@@ -2,7 +2,7 @@
 title: "曼谷黄金麦克风：Thong Lo 高级 KTV 的奢华与呢喃"
 heroImage: '../../../assets/hero/thonglo-ktv.png'
 description: "在奢华的包厢内，酒精与香水味交织，谱出一段段深夜的私密恋曲。"
-pubDate: "2026-03-12"
+pubDate: '2026-03-12'
 ---
 
 走进 Thong Lo 区的高级日式 KTV，空气中弥漫的是昂贵的威士忌与淡雅的香氛。这里没有街道的喧嚣，只有厚重隔音门后的窃窃私语。

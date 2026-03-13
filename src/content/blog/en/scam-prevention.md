@@ -1,7 +1,7 @@
 ---
 title: "Survival in the Shadows: Avoiding Nightlife Scams in Thailand"
 description: "The forest of desire is full of traps. This guide is your bulletproof vest for a safe return from the fray."
-pubDate: "2026-03-12"
+pubDate: '2026-03-12'
 ---
 
 Behind Thailand’s flickering neon lights lie countless eyes watching your wallet. To truly enjoy yourself, you must learn to recognize the hooks hidden behind the smiles.

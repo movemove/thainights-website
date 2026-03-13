@@ -2,7 +2,7 @@
 title: "Pattaya Soi 6: The Daytime Harem for Dreamers"
 heroImage: '../../../assets/hero/soi6-pattaya.png'
 description: "When the sun hits Soi 6, it's not just a street—it's ground zero for a hormonal explosion."
-pubDate: "Mar 12 2026"
+pubDate: '2026-03-12'
 ---
 
 Pattaya’s Soi 6 is every veteran’s playground. At 2 PM, while the rest of the city naps, this place is already steaming. The narrow alley is lined with girls in micro-shorts and skin-tight tops, their teases hotter than the Thai sun.

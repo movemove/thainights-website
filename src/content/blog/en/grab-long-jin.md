@@ -1,7 +1,7 @@
 ---
 title: "The Sacred Touch: Decoding Bangkok's Prostate Massage (Grab Long Jin)"
 description: "More than just a massage, this is a mystical ritual targeting the core of male vitality."
-pubDate: "2026-03-12"
+pubDate: '2026-03-12'
 ---
 
 When an experienced practitioner’s fingers precisely find those hidden meridians, you’ll feel a long-lost surge of heat traveling from your tailbone to your scalp. This is the legendary "Grab Long Jin."

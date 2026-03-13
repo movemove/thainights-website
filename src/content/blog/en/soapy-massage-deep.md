@@ -2,7 +2,7 @@
 title: "The Water Feast: Maria & Long Beach – Bangkok's Soapy Massage"
 heroImage: '../../../assets/hero/soapy-massage-deep.png'
 description: "Inside the warm steam, your exhaustion and defenses will dissolve into a sea of gentle foam."
-pubDate: "2026-03-12"
+pubDate: '2026-03-12'
 ---
 
 Bangkok's Soapy Massage parlors are the five-star SPAs of the adult world. Entering Maria or Long Beach, you are greeted by the massive "fishbowl" stage where dozens of beauties wait under the spotlight for your nod.

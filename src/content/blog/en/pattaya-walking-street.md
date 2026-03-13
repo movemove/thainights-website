@@ -2,7 +2,7 @@
 title: "Pattaya Walking Street: The Ultimate Pilgrimage for Global Players"
 heroImage: '../../../assets/hero/pattaya-walking-street.png'
 description: "If Bangkok is the heaven of nightlife, Walking Street is its center. Home to the craziest parties and densest bars."
-pubDate: 'Mar 11 2026'
+pubDate: '2026-03-12'
 
 ---
 

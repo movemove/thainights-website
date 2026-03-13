@@ -2,7 +2,7 @@
 title: "芭達雅 Walking Street：全球老司機的終極朝聖地"
 heroImage: '../../../assets/hero/pattaya-walking-street.png'
 description: "如果曼谷是夜生活的天堂，那麼芭達雅 Walking Street 就是天堂的中心。這裏有最瘋狂的派對與最密集的酒吧。"
-pubDate: 'Mar 11 2026'
+pubDate: '2026-03-12'
 
 ---
 

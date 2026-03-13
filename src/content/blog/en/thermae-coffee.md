@@ -1,7 +1,7 @@
 ---
 title: "Thermae Coffee: Bangkok's Underground Temple of Desire"
 description: "Step into this legendary basement cafe where perfume and primal urges fill the air."
-pubDate: "2026-03-12"
+pubDate: '2026-03-12'
 ---
 
 Located in the basement of Sukhumvit Soi 15, Thermae is the Mecca for veterans. As you push open the heavy doors, the dim light and cold air hit you, along with hundreds of pairs of eyes filled with anticipation.
