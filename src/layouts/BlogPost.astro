@@ -23,7 +23,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				width: 100%;
 				max-width: 100%;
 				margin: 0;
-				padding: 0; /* 讓內容控制邊距 */
+				padding: 0 0 10rem 0; /* 大幅增加底部內邊距，確保不被截斷 */
 			}
 			.hero-image {
 				width: 100%;
@@ -32,7 +32,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
-				border-radius: 0; /* 手機頂部滿版通常不圓角較好看 */
+				border-radius: 0;
 				width: 100%;
 				max-width: 1020px;
 			}
@@ -40,7 +40,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				width: 100%;
 				max-width: 800px;
 				margin: auto;
-				padding: 1rem; /* 統一邊距 */
+				padding: 1rem;
 			}
 			.title {
 				margin-bottom: 2em;
@@ -55,6 +55,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				margin-bottom: 0.5em;
 				color: var(--gray);
 			}
+            .comment-wrapper {
+                margin-top: 10rem; /* 大幅增加上方間距 */
+                border-top: 1px solid #333;
+                padding: 5rem 1rem; /* 增加內部上下間距 */
+                width: 100%;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
 			@media (max-width: 720px) {
 				.hero-image {
 					margin-bottom: 1rem;
@@ -65,6 +74,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				.title h1 {
 					font-size: 1.8rem;
 				}
+                .comment-wrapper {
+                    margin-top: 6rem;
+                    padding: 4rem 1rem;
+                }
 			}
 		</style>
 	</head>
@@ -87,22 +100,22 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr style="border: none; border-top: 1px solid #333;" />
 					</div>
 					<slot />
-
-					<!-- Cusdis Comment Section -->
-					<div style="margin-top: 8rem; border-top: 1px solid #333; padding: 4rem 0;">
-						<h3 style="color: var(--neon-pink); text-align: center; margin-bottom: 1rem;">💬 討論區</h3>
-						<p style="font-size: 0.85rem; color: #888; text-align: center; margin-bottom: 3rem;">免登入匿名留言，填寫暱稱即可。內容審核後顯示。</p>
-						<div id="cusdis_thread"
-							data-host="https://cusdis.com"
-							data-app-id="77aeb03e-4803-4df8-99d4-527051ac70a5"
-							data-page-id={Astro.url.pathname}
-							data-page-url={Astro.url.href}
-							data-page-title={title}
-							data-theme="dark"
-						></div>
-						<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-					</div>
 				</div>
+
+                <!-- Move comment section OUTSIDE of .prose for full width/freedom -->
+                <div class="comment-wrapper">
+                    <h3 style="color: var(--neon-pink); text-align: center; margin-bottom: 1rem; font-size: 2rem;">💬 討論區</h3>
+                    <p style="font-size: 1rem; color: #888; text-align: center; margin-bottom: 4rem;">免登入匿名留言，填寫暱稱即可。內容審核後顯示。</p>
+                    <div id="cusdis_thread"
+                        data-host="https://cusdis.com"
+                        data-app-id="77aeb03e-4803-4df8-99d4-527051ac70a5"
+                        data-page-id={Astro.url.pathname}
+                        data-page-url={Astro.url.href}
+                        data-page-title={title}
+                        data-theme="dark"
+                    ></div>
+                    <script is:inline async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+                </div>
 			</article>
 		</main>
 		<Footer />
