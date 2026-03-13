@@ -1,5 +1,6 @@
 ---
 title: "河畔夜色：昭披耶河畔，辛辣与水波的感官对话"
+heroImage: '../../../assets/hero/riverside-dining.png'
 description: "水气氤氲中，让泰式香料的热力唤醒你最深层的食欲。"
 pubDate: "2026-03-13"
 ---
