@@ -1,8 +1,8 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -47,7 +47,7 @@ const t = useTranslations(lang);
 				transition: all 0.3s ease;
 				display: flex;
 				flex-direction: column;
-                text-decoration: none; /* Make entire card look non-link-like by default */
+                text-decoration: none;
                 cursor: pointer;
                 position: relative;
 			}
@@ -70,48 +70,22 @@ const t = useTranslations(lang);
 				font-size: 1rem;
 				margin-bottom: 1.5rem;
 			}
-			.btn {
-				background: var(--neon-pink);
-				color: white;
-				padding: 0.8rem 1.5rem;
-				border-radius: 6px;
-				text-decoration: none;
-				display: inline-block;
-				font-weight: bold;
-				margin-top: 1rem;
-				transition: opacity 0.2s;
-			}
-			.btn:hover {
-				opacity: 0.9;
-			}
 			.read-more {
 				color: var(--neon-pink);
 				font-weight: bold;
 				text-decoration: none;
 				align-self: flex-start;
 			}
-            /* Use a pseudo-element to make the whole card clickable via the inner link */
             .card a.main-link::after {
                 content: "";
                 position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
+                top: 0; left: 0; right: 0; bottom: 0;
             }
 			@media (max-width: 720px) {
-				.hero h1 {
-					font-size: 2.2rem;
-				}
-				.hero p {
-					font-size: 1rem;
-				}
-				main {
-					padding: 2rem 1rem;
-				}
-				.card-grid {
-					gap: 1.5rem;
-				}
+				.hero h1 { font-size: 2.2rem; }
+				.hero p { font-size: 1rem; }
+				main { padding: 2rem 1rem; }
+				.card-grid { gap: 1.5rem; }
 			}
 		</style>
 	</head>
@@ -121,7 +95,7 @@ const t = useTranslations(lang);
 			<div class="hero">
 				<h1>🇹🇭 ThaiNights</h1>
 				<p>{t('site.description')}</p>
-				<a href={lang === 'zh-tw' ? '/map' : `/${lang}/map`} class="btn">{t('nav.map')}</a>
+				<a href={lang === 'zh-tw' ? '/map' : `/${lang}/map`} class="btn" style="background: var(--neon-pink); color: white; padding: 0.8rem 1.5rem; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; margin-top: 1.5rem;">{t('nav.map')}</a>
 			</div>
 			
 			<div class="card-grid">
