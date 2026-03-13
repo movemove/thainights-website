@@ -1,5 +1,6 @@
 ---
 title: "Bangkok's Elite Choice: Gentlemen's Clubs (The Pimp / Sherbet)"
+heroImage: '../../../assets/hero/gentlemens-clubs.png'
 description: "For those with a healthy budget seeking a more sophisticated and private nightlife experience."
 pubDate: '2025-10-31'
 

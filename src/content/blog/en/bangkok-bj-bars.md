@@ -1,5 +1,6 @@
 ---
 title: "Neon Fast Food: The Instant Gratification of Bangkok BJ Bars"
+heroImage: '../../../assets/hero/bangkok-bj-bars.png'
 description: "Maximum pleasure in minimum time. A sensory blitzkrieg with zero emotional baggage."
 pubDate: '2025-12-20'
 ---

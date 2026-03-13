@@ -1,5 +1,6 @@
 ---
 title: "霓虹下的快餐：曼谷口爆店 BJ Bar 的速食快感"
+heroImage: '../../../assets/hero/bangkok-bj-bars.png'
 description: "在最短的時間內，享受最極致的喉間溫柔。這是一場沒有負擔的感官閃擊戰。"
 pubDate: '2025-12-20'
 ---

@@ -1,5 +1,6 @@
 ---
 title: "神圣的指尖：曼谷「抓龙筋」解密生理与灵魂的双重释放"
+heroImage: '../../../assets/hero/grab-long-jin.png'
 description: "这不是普通的按摩，这是一场针对男性原始生命力的神秘仪式。"
 pubDate: '2026-01-18'
 ---

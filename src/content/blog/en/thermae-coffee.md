@@ -1,5 +1,6 @@
 ---
 title: "Thermae Coffee: Bangkok's Underground Temple of Desire"
+heroImage: '../../../assets/hero/thermae-coffee.png'
 description: "Step into this legendary basement cafe where perfume and primal urges fill the air."
 pubDate: '2025-10-04'
 ---

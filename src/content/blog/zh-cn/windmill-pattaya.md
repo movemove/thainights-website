@@ -1,5 +1,6 @@
 ---
 title: "风车旋涡：芭提雅 Windmill，疯狂与肉欲的无底洞"
+heroImage: '../../../assets/hero/windmill-pattaya.png'
 description: "如果你想看见芭提雅最极限的样子，那就踏入这座风车，感受灵魂被吞噬的快感。"
 pubDate: '2026-03-06'
 ---

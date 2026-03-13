@@ -1,5 +1,6 @@
 ---
 title: "蛇美咖啡 Thermae：曼谷地下的慾望流動，傳奇交友聖殿"
+heroImage: '../../../assets/hero/thermae-coffee.png'
 description: "踏入這座傳奇的地下咖啡廳，感受空氣中瀰漫的香水與原始慾望。"
 pubDate: '2025-10-04'
 ---

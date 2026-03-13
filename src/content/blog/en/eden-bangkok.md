@@ -1,5 +1,6 @@
 ---
 title: "Eden's Forbidden Fruit: The Private Sensory Parties of Bangkok"
+heroImage: '../../../assets/hero/eden-bangkok.png'
 description: "Push open those doors and leave your morals at the curb. This is the ultimate playground for grown-ups."
 pubDate: '2025-11-19'
 ---

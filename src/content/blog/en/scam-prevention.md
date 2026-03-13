@@ -1,5 +1,6 @@
 ---
 title: "Survival in the Shadows: Avoiding Nightlife Scams in Thailand"
+heroImage: '../../../assets/hero/scam-prevention.png'
 description: "The forest of desire is full of traps. This guide is your bulletproof vest for a safe return from the fray."
 pubDate: '2025-08-22'
 ---
