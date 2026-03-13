@@ -1,7 +1,7 @@
 ---
 title: "The Windmill Vortex: Inside Pattaya's Wildest Pit of Lust"
 description: "To see the true limits of Pattaya, enter The Windmill and feel your sanity slip away."
-pubDate: '2026-03-12'
+pubDate: '2026-03-06'
 ---
 
 Deep within Walking Street, Windmill operates like a spinning black hole. The second you cross the threshold, your senses are drowned in deafening beats and a sea of roaming, unclothed bodies.

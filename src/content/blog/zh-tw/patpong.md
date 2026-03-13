@@ -2,7 +2,7 @@
 title: "Patpong 帕蓬夜市與紅燈區：經典老牌區的魅力與陷阱"
 heroImage: '../../../assets/hero/patpong.png'
 description: "曼谷歷史最悠久的紅燈區，這裡有最著名的 Ping Pong Show，但也充滿了觀光客陷阱。"
-pubDate: '2026-03-12'
+pubDate: '2025-10-12'
 
 ---
 

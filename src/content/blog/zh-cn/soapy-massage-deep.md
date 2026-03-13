@@ -2,7 +2,7 @@
 title: "水之盛宴：曼谷「泰浴」玛丽亚与龙宫的极致洗浴"
 heroImage: '../../../assets/hero/soapy-massage-deep.png'
 description: "在温热的水雾中，所有的疲惫与防线都会被温柔的泡沫彻底融化。"
-pubDate: '2026-03-12'
+pubDate: '2025-08-02'
 ---
 
 曼谷的泰浴（Soapy Massage）是成人世界的顶级SPA。走进 Maria 或 Long Beach，映入眼帘的是壮观的「鱼缸」大厅，数十位佳丽在聚光灯下等待着你的拣选。

@@ -2,7 +2,7 @@
 title: "Soi Cowboy 霓虹小巷：曼谷最受欢迎的 Go-Go Bar 聚集地"
 heroImage: '../../../assets/hero/soi-cowboy.png'
 description: "这条充满霓虹灯的小巷是曼谷夜生活的缩影。推荐 Baccara、Crazy House 等名店。"
-pubDate: '2026-03-12'
+pubDate: '2025-08-25'
 
 ---
 

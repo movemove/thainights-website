@@ -2,7 +2,7 @@
 title: "Nana Plaza Bangkok Guide: The World's Largest Adult Playground"
 heroImage: '../../../assets/hero/nana-plaza.png'
 description: "A three-story legendary complex on Sukhumvit Soi 4. A must-visit for newcomers."
-pubDate: '2026-03-12'
+pubDate: '2026-03-08'
 
 ---
 
