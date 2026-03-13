@@ -3,6 +3,7 @@
 // all pages through the use of the <BaseHead /> component.
 import '../styles/global.css';
 import { SITE_TITLE } from '../consts';
+import { getLangFromUrl } from '../i18n/utils';
 
 interface Props {
 	title: string;
@@ -11,10 +12,19 @@ interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const lang = getLangFromUrl(Astro.url);
 
 const { title, description, image = '/main-og.png' } = Astro.props;
-
 const finalImage = typeof image === 'string' ? image : image?.src || '/main-og.png';
+
+// Generate alternate language URLs for SEO
+const currentPath = Astro.url.pathname.replace(/^\/(en|zh-cn)\//, '/');
+const alternates = [
+    { lang: 'zh-TW', href: new URL(currentPath, Astro.site) },
+    { lang: 'zh-CN', href: new URL(`/zh-cn${currentPath}`, Astro.site) },
+    { lang: 'en', href: new URL(`/en${currentPath}`, Astro.site) },
+    { lang: 'x-default', href: new URL(currentPath, Astro.site) }
+];
 ---
 
 <!-- Global Metadata -->
@@ -31,9 +41,14 @@ const finalImage = typeof image === 'string' ? image : image?.src || '/main-og.p
 />
 <meta name="generator" content={Astro.generator} />
 
+<!-- Language / Hreflang SEO -->
+<meta name="language" content={lang} />
+{alternates.map(alt => (
+    <link rel="alternate" hreflang={alt.lang} href={alt.href} />
+))}
+
 <!-- SEO / Keywords -->
-<meta name="language" content="zh-TW" />
-<meta name="keywords" content="泰國夜生活, 曼谷暗黑行程, Nana Plaza, Soi Cowboy, 泰國紅燈區, 曼谷按摩, 泰國旅遊, 泰國避坑, 泰國夜遊, 泰国夜生活, 曼谷暗黑行程, 泰国红灯区" />
+<meta name="keywords" content="泰國夜生活, 曼谷暗黑行程, Nana Plaza, Soi Cowboy, 泰國紅燈區, 曼谷按摩, 泰國旅遊, 泰國避坑, 泰國夜遊, 2026泰國旅遊, 泰国夜生活, 曼谷暗黑行程, 泰国红灯区, Thailand Nightlife, Bangkok Nightlife Guide, Pattaya Walking Street" />
 <meta name="author" content="ThaiNights" />
 <meta name="robots" content="index, follow" />
 
@@ -45,15 +60,15 @@ const finalImage = typeof image === 'string' ? image : image?.src || '/main-og.p
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
-<meta name="title" content={title} />
+<title>{title} | {SITE_TITLE}</title>
+<meta name="title" content={`${title} | ${SITE_TITLE}`} />
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:site_name" content={SITE_TITLE} />
-<meta property="og:locale" content="zh_TW" />
+<meta property="og:locale" content={lang === 'en' ? 'en_US' : lang === 'zh-cn' ? 'zh_CN' : 'zh_TW'} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(finalImage, Astro.url)} />
@@ -65,29 +80,35 @@ const finalImage = typeof image === 'string' ? image : image?.src || '/main-og.p
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(finalImage, Astro.url)} />
 
-<!-- Structured Data -->
-<script type="application/ld+json" is:inline set:html={JSON.stringify({
-	"@context": "https://schema.org",
-	"@type": Astro.url.pathname === '/' ? "WebSite" : "Article",
-	"headline": title,
-	"description": description,
-	"image": [new URL(finalImage, Astro.url)],
-	"author": {
-		"@type": "Organization",
-		"name": "ThaiNights",
-		"url": "https://thainights.net"
-	},
-	"publisher": {
-		"@type": "Organization",
-		"name": "ThaiNights",
-		"logo": {
-			"@type": "ImageObject",
-			"url": new URL('/favicon.svg', Astro.site)
-		}
-	},
-	"datePublished": "2026-03-11T08:00:00+08:00",
-	"mainEntityOfPage": {
-		"@type": "WebPage",
-		"@id": Astro.url.href
-	}
-})} />
+<!-- Structured Data: Combined WebSite, Article, and Breadcrumbs -->
+<script type="application/ld+json" is:inline set:html={JSON.stringify([
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ThaiNights",
+        "url": "https://thainights.net"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": Astro.url.pathname.split('/').filter(Boolean).map((part, i, arr) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "name": part.charAt(0).toUpperCase() + part.slice(1),
+            "item": new URL('/' + arr.slice(0, i + 1).join('/'), Astro.site)
+        }))
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": description,
+        "image": [new URL(finalImage, Astro.url)],
+        "author": {
+            "@type": "Organization",
+            "name": "ThaiNights",
+            "url": "https://thainights.net"
+        },
+        "datePublished": "2026-03-12T08:00:00+08:00"
+    }
+])} />
