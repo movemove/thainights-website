@@ -77,7 +77,7 @@ img {
 }
 
 article {
-    padding-bottom: 5rem; /* 給底部討論區留餘裕 */
+    padding-bottom: 10rem; /* 大幅增加底部空間，防止討論區被切斷 */
 }
 
 @media (max-width: 720px) {
