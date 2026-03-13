@@ -1,0 +1,134 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const posts = (await getCollection('stories', ({ id }) => id.startsWith(`${lang}/`))).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const titles = {
+    'zh-tw': '深夜隨筆',
+    'zh-cn': '深夜随笔',
+    'en': 'Midnight Memoirs'
+};
+
+const descs = {
+    'zh-tw': '那些關於慾望、邂逅與迷失在曼谷深夜的故事。',
+    'zh-cn': '那些关于欲望、邂逅与迷失在曼谷深夜的故事。',
+    'en': 'Tales of desire, encounters, and getting lost in the Bangkok night.'
+};
+---
+
+<!doctype html>
+<html lang={lang}>
+	<head>
+		<BaseHead title={`${titles[lang]} - ${SITE_TITLE}`} description={descs[lang]} />
+		<style>
+			main {
+				width: 100%;
+				max-width: 1000px;
+				margin: auto;
+				padding: 2em 1rem;
+			}
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 2rem;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			ul li {
+				width: calc(50% - 1rem);
+			}
+			ul li * {
+				text-decoration: none;
+				transition: 0.2s ease;
+			}
+			ul li:first-child {
+				width: 100%;
+				margin-bottom: 1rem;
+				text-align: center;
+			}
+			ul li:first-child img {
+				width: 100%;
+				max-width: 800px;
+			}
+			ul li:first-child .title {
+				font-size: 2.369rem;
+			}
+			ul li img {
+				margin-bottom: 0.5rem;
+				border-radius: 12px;
+				width: 100%;
+			}
+			ul li a {
+				display: block;
+			}
+			.title {
+				margin: 0;
+				color: var(--neon-blue);
+				line-height: 1.2;
+			}
+			.date {
+				margin: 0;
+				color: var(--gray);
+			}
+			ul li a:hover h4,
+			ul li a:hover .date {
+				color: var(--neon-pink);
+			}
+			@media (max-width: 720px) {
+				ul {
+					gap: 1.5em;
+				}
+				ul li {
+					width: 100%;
+				}
+				ul li:first-child .title {
+					font-size: 1.8rem;
+				}
+                .title {
+                    font-size: 1.5rem;
+                }
+			}
+		</style>
+	</head>
+	<body style="background-color: #0a0a0c;">
+		<Header />
+		<main>
+            <div style="text-align:center; margin-bottom: 3rem;">
+                <h1 style="font-size: 3rem; color: var(--neon-pink); text-shadow: 0 0 20px var(--neon-pink);">{titles[lang]}</h1>
+                <p style="color: var(--gray); font-size: 1.2rem;">{descs[lang]}</p>
+            </div>
+			<section>
+				<ul>
+					{
+						posts.map((post) => (
+							<li>
+								<a href={lang === 'zh-tw' ? `/stories/${post.id.replace('zh-tw/', '')}/` : `/${lang}/stories/${post.id.replace(`${lang}/`, '')}/`}>
+									{post.data.heroImage && (
+										<img src={post.data.heroImage.src} alt={post.data.title} />
+									)}
+									<h4 class="title">{post.data.title}</h4>
+									<p class="date">
+										<FormattedDate date={post.data.pubDate} />
+									</p>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

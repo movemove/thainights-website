@@ -10,6 +10,7 @@ export const ui = {
   'zh-tw': {
     'nav.home': '首頁',
     'nav.blog': '攻略',
+    'nav.stories': '隨筆',
     'nav.map': '地圖',
     'nav.about': '關於',
     'site.title': 'ThaiNights.net',
@@ -35,6 +36,7 @@ export const ui = {
   'zh-cn': {
     'nav.home': '首页',
     'nav.blog': '攻略',
+    'nav.stories': '随笔',
     'nav.map': '地图',
     'nav.about': '关于',
     'site.title': 'ThaiNights.net',
@@ -60,6 +62,7 @@ export const ui = {
   'en': {
     'nav.home': 'Home',
     'nav.blog': 'Guides',
+    'nav.stories': 'Stories',
     'nav.map': 'Map',
     'nav.about': 'About',
     'site.title': 'ThaiNights.net',

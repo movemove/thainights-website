@@ -18,6 +18,7 @@ const currentPath = pathname.replace(/^\/(en|zh-cn)(\/|$)/, '/');
 		<div class="internal-links">
 			<HeaderLink href={lang === 'zh-tw' ? '/' : `/${lang}/`}>{t('nav.home')}</HeaderLink>
 			<HeaderLink href={lang === 'zh-tw' ? '/blog' : `/${lang}/blog`}>{t('nav.blog')}</HeaderLink>
+            <HeaderLink href={lang === 'zh-tw' ? '/stories' : `/${lang}/stories`}>{t('nav.stories')}</HeaderLink>
 			<HeaderLink href={lang === 'zh-tw' ? '/map' : `/${lang}/map`}>{t('nav.map')}</HeaderLink>
 		</div>
         <div class="lang-switcher">
