@@ -1,0 +1,37 @@
+---
+interface Props {
+	src: string;
+	poster?: string;
+	className?: string;
+}
+
+const { src, poster, className = "" } = Astro.props;
+---
+
+<div class={`video-wrapper ${className}`}>
+	<video 
+		autoplay 
+		loop 
+		muted 
+		playsinline 
+		poster={poster}
+		class="w-full h-auto rounded-xl shadow-lg border border-white/10"
+	>
+		<source src={src} type="video/mp4" />
+		您的瀏覽器不支援影片播放。
+	</video>
+</div>
+
+<style>
+	.video-wrapper {
+		width: 100%;
+		margin: 2rem 0;
+		overflow: hidden;
+		border-radius: 12px;
+	}
+	video {
+		display: block;
+		width: 100%;
+		background: #000;
+	}
+</style>
