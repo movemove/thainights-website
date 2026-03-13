@@ -15,3 +15,7 @@ pubDate: '2025-10-06'
 - **白天更嗨**：下午 4 点到 6 点是「抢鲜」的好时机。
 
 如果你喜欢那种「被猎食」的快感，Soi 6 绝对能让你流连忘返。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_soi6_pattaya_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soi6_pattaya_00001_.mp4" type="video/mp4"></video>
+

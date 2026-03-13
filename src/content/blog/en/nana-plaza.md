@@ -20,3 +20,11 @@ Nana Plaza is often called "The World's Largest Adult Playground." Located on Su
 
 1. Always check the drink menu for prices first. Typically, a beer costs around 150-200 THB.
 2. Confirm the price of a "Ladydrink" before buying one to avoid any billing disputes later.
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_nana_plaza_fast_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_nana_plaza_fast_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/video_nana_plaza_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_nana_plaza_00001_.mp4" type="video/mp4"></video>
+

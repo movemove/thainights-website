@@ -19,3 +19,11 @@ Soi Cowboy is a 150-meter long alley located between Sukhumvit Soi 21 and Soi 23
 1. **Street Hawkers**: You'll see people on the street with "menus" trying to lure you in. It's best to ignore them and head straight into a reputable bar of your choice.
 2. **Photography**: Most bars strictly prohibit photography near their entrances. Please respect this to avoid unwanted confrontations.
 3. **Bill Check**: While Soi Cowboy is generally safe, it's always good practice to double-check your bill before paying.
+
+
+<video autoplay loop muted playsinline poster="/videos/video_soi_cowboy_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soi_cowboy_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_soi_cowboy_bustle_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_soi_cowboy_bustle_00001_.mp4" type="video/mp4"></video>
+

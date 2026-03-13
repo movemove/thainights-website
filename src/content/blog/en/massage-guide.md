@@ -28,3 +28,15 @@ Thailand is a mecca for massage. However, there's often a fine line between ther
 ---
 
 Whether you want to relax your muscles or indulge in ultimate luxury, Bangkok's massage scene has it all!
+
+
+<video autoplay loop muted playsinline poster="/videos/video_massage_guide_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_massage_guide_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_massage_sole_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_massage_sole_02_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_massage_sole_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_massage_sole_01_00001_.mp4" type="video/mp4"></video>
+

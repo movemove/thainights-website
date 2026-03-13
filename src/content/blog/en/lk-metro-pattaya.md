@@ -15,3 +15,7 @@ At LK Metro, the bars are closer, and the interactions are more personal. Sit at
 - **Bachelor**: A long-standing favorite known for its daring surprises and high interaction.
 
 If you're tired of the sensory overload of the main strip, LK Metro is where you'll find your precision strike.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_lk_metro_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_lk_metro_00001_.mp4" type="video/mp4"></video>
+

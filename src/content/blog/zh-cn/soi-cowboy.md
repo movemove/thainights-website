@@ -19,3 +19,11 @@ Soi Cowboy 是一条长约 150 公尺的小巷子，位于 Sukhumvit Soi 21 与 
 1. **路边拉客**: 巷子里常有拿着「Menu」拉客的人，建议直接走进你想去的店，不要理会路边的子。
 2. **门口拍照**: 大多数店家门口严禁拍照，请尊重当地规定，避免发生冲突。
 3. **结帐检查**: 虽然 Soi Cowboy 相对安全，但结帐时还是建议瞄一眼账单金额是否正确。
+
+
+<video autoplay loop muted playsinline poster="/videos/video_soi_cowboy_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soi_cowboy_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_soi_cowboy_bustle_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_soi_cowboy_bustle_00001_.mp4" type="video/mp4"></video>
+

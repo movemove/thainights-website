@@ -15,3 +15,7 @@ pubDate: '2025-12-20'
 - **環境差異**：從路邊小店到帶有空調的高級店，價格通常落在 700-1500 泰銖之間。
 
 這是一場感官的快閃，也是都市壓力最快速的出口。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_bj_bars_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_bj_bars_00001_.mp4" type="video/mp4"></video>
+

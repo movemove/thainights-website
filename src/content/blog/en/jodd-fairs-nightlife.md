@@ -15,3 +15,7 @@ The girls here aren't as "corporate" as those in Go-Go Bars. They are often part
 - **Take the Initiative**: The success rate of approaching someone here is higher than you’d think.
 
 The darkness of Jodd Fairs is subtle. Unlike the directness of a red-light district, this place tests your "hunting" skills.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_jodd_fairs_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_jodd_fairs_00001_.mp4" type="video/mp4"></video>
+

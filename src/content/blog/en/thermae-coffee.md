@@ -17,3 +17,15 @@ As you slowly walk through this corridor, you feel countless gazes like moist fi
 - **Physical Language**: When you approach to ask for the price, she might lean into your ear, her warm breath instantly dissolving your logic.
 
 Transactions here are raw and direct, stripped of bar formalities, leaving only the primal exchange of flesh and silver. This is a place where you lose yourself in a dark spiral, where every second spent deepens your internal descent.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_thermae_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_thermae_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_relaxing_feet_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_relaxing_feet_01_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_relaxing_feet_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_relaxing_feet_02_00001_.mp4" type="video/mp4"></video>
+

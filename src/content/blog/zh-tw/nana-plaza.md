@@ -24,3 +24,10 @@ pubDate: '2026-03-08'
 - **眼神的電力**：不要只顧著手，深情的對視往往能開啟女孩更狂野的一面。
 
 Nana Plaza 是一場沒有終點的旋渦，每一層都在考驗你的理智與錢包。🐾
+
+<video autoplay loop muted playsinline poster="/videos/fast_nana_plaza_fast_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_nana_plaza_fast_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/video_nana_plaza_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_nana_plaza_00001_.mp4" type="video/mp4"></video>
+

@@ -17,3 +17,7 @@ pubDate: '2026-01-28'
 - **离峰优惠**：有些酒吧在下午 8 点前有 Happy Hour，是省酒钱的好时机。
 
 掌握了数字，你才能在欲望的浪潮中游刃有余。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_budget_guide_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_budget_guide_00001_.mp4" type="video/mp4"></video>
+

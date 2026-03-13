@@ -21,3 +21,6 @@ pubDate: '2025-10-06'
 - **下午場優勢**：白天時女孩的體力最好，互動也最積極。
 
 這是一條讓你在光天化日之下徹底沉淪的街道，每一步踏入，都是向螺旋深處的進軍。🐾
+
+<video autoplay loop muted playsinline poster="/videos/video_soi6_pattaya_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soi6_pattaya_00001_.mp4" type="video/mp4"></video>
+

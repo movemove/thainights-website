@@ -15,3 +15,7 @@ Walk down this street, and you are king. Girls will lean out of bars, calling yo
 - **Daylight Delight**: 4 PM to 6 PM is the best time for "fresh" selections.
 
 If you enjoy the thrill of being "preyed upon," Soi 6 will keep you coming back for more.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_soi6_pattaya_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soi6_pattaya_00001_.mp4" type="video/mp4"></video>
+

@@ -34,3 +34,15 @@ pubDate: '2026-03-04'
 ### 📸 氛圍特寫：足尖的溫柔
 在這場感官螺旋中，每一處細節都充滿了誘惑。
 ![美腳特寫](../../../assets/gallery/legs_1.png)
+
+
+<video autoplay loop muted playsinline poster="/videos/video_massage_guide_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_massage_guide_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_massage_sole_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_massage_sole_02_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_massage_sole_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_massage_sole_01_00001_.mp4" type="video/mp4"></video>
+

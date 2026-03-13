@@ -19,3 +19,7 @@ pubDate: '2025-10-31'
 1.  **开酒费**: 通常需要购买数瓶烈酒作为入会。
 2.  **Model 费用**: 陪同人员会依照「节数」(Starts) 计费。
 3.  **小费**: 建议准备一些百元钞票发放。
+
+
+<video autoplay loop muted playsinline poster="/videos/video_gentlemens_clubs_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_gentlemens_clubs_00001_.mp4" type="video/mp4"></video>
+

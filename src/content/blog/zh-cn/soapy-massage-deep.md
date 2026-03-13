@@ -17,3 +17,19 @@ pubDate: '2025-08-02'
 - **流程精华**：从共浴、全身泡沫按摩到最后的温柔释放，每一步都是精心设计的感官地狱。
 
 在这里，水不再只是清洁，而是传递热度、力量与原始欲望的媒介。这是一场灵魂与肉体的双重洗礼。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_soapy_massage_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soapy_massage_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_soapy_toes_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_soapy_toes_02_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_soapy_massage_splash_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_soapy_massage_splash_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_soapy_toes_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_soapy_toes_01_00001_.mp4" type="video/mp4"></video>
+

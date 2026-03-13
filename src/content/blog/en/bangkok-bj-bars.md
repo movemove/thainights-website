@@ -15,3 +15,7 @@ Order a soda, pick your companion, and be led behind the curtain. In that small,
 - **Price Range**: From small roadside spots to air-conditioned parlors, expect to pay between 700 and 1,500 THB.
 
 It’s a sensory flash mob and the quickest exit from the pressures of modern life.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_bj_bars_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_bj_bars_00001_.mp4" type="video/mp4"></video>
+

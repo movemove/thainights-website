@@ -16,3 +16,7 @@ pubDate: '2025-08-22'
 冷静、不要发生肢体冲突。如果金额差异太大，可以要求报警或寻求旅游警察协助。
 
 记住，泰国夜生活是一场交易，不是一场战争。保持清醒，你才能享受最好的果实。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_scam_prevention_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_scam_prevention_00001_.mp4" type="video/mp4"></video>
+

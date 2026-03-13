@@ -15,3 +15,7 @@ The decor is masterfully seductive. Amidst swaying lights and shadows, you’ll 
 - **Respect the Code**: The more private the venue, the stricter the enforcement of house rules.
 
 If you’ve grown bored of mainstream spots, Eden will take you to an entirely different level of the Thai night.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_eden_club_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_eden_club_00001_.mp4" type="video/mp4"></video>
+

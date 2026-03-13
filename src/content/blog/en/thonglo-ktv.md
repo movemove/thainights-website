@@ -15,3 +15,7 @@ In these rooms, the microphone is merely a prop. Each private suite feels like a
 - **Timing**: After 9 PM, when the air turns thick with anticipation, is the best time to arrive.
 
 Here, your money buys more than just spirits—it buys the illusion of being the most important person in the world.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_thonglo_ktv_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_thonglo_ktv_00001_.mp4" type="video/mp4"></video>
+

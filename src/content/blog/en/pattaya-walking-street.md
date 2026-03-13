@@ -23,3 +23,19 @@ Coming to Pattaya without visiting Walking Street is like never coming at all. T
 ### 💡 Pro Tip
 
 Grab a beer on the beach at sunset, and wait until after 9 PM to enter Walking Street when the atmosphere reaches its peak!🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_walking_street_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_walking_street_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_beach_barefoot_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_beach_barefoot_01_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_beach_barefoot_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_beach_barefoot_02_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_walking_street_dance_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_walking_street_dance_00001_.mp4" type="video/mp4"></video>
+

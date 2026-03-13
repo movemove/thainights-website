@@ -15,3 +15,7 @@ Jodd Fairs 不只是吃火山排骨的地方。当夜幕深沉，游客散去，
 - **主动出击**：在这里，主动搭话的成功率比你想象中高得多。
 
 Jodd Fairs 的暗黑，是那种若隐若现的诱惑，比起红灯区的直接，这里更考验你的「狩猎」技巧。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_jodd_fairs_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_jodd_fairs_00001_.mp4" type="video/mp4"></video>
+

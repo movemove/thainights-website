@@ -15,3 +15,7 @@ pubDate: '2025-08-30'
 - **Bachelor**：以大胆的惊喜与互动著稱，是这里的常青树。
 
 如果你厌倦了大杂烩般的热闹，LK Metro 会是你寻找「精准猎物」的最佳场所。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_lk_metro_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_lk_metro_00001_.mp4" type="video/mp4"></video>
+

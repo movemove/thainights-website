@@ -17,3 +17,15 @@ pubDate: '2025-10-04'
 - **肢體的語言**：當你靠近詢問價格時，她可能會順勢貼近你的耳畔，那溫熱的氣息會讓你的理智瞬間瓦解。
 
 這裡的交易直接而純粹，省去了酒吧的繁文縟節，只剩下肉體與金錢最原始的博弈。這是一個讓你迷失在黑色螺旋中的地方，每一秒的停留，都在加深你內心深處的沉淪。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_thermae_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_thermae_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_relaxing_feet_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_relaxing_feet_01_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_relaxing_feet_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_relaxing_feet_02_00001_.mp4" type="video/mp4"></video>
+

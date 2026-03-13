@@ -15,3 +15,7 @@ The ritual begins with traditional Thai stretching before focusing intensely on 
 - **Let Go**: Discard your shyness. Breathe deeply and match the rhythm of the practitioner for the most profound effect.
 
 This is a journey of self-discipline for men and remains one of the most enigmatic cultural assets of Thai nightlife.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_grab_long_jin_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_grab_long_jin_00001_.mp4" type="video/mp4"></video>
+

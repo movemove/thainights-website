@@ -17,3 +17,7 @@ To remain elegant within the spiral of Thai nightlife, you must have absolute co
 - **Happy Hour**: Many bars offer discounted drinks before 8 PM—a great time to pre-game.
 
 Once you master the numbers, you can surf the waves of desire with ease.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_budget_guide_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_budget_guide_00001_.mp4" type="video/mp4"></video>
+

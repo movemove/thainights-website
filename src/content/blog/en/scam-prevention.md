@@ -16,3 +16,7 @@ Behind Thailand’s flickering neon lights lie countless eyes watching your wall
 Stay calm. Never engage in physical altercations. If the discrepancy is massive, call for the Tourist Police.
 
 Remember, Thai nightlife is a transaction, not a battlefield. Keep a clear head to taste the sweetest fruit.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_scam_prevention_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_scam_prevention_00001_.mp4" type="video/mp4"></video>
+

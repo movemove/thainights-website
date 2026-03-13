@@ -17,3 +17,19 @@ You feel her soft, warm body gliding over yours, every slide and friction carryi
 - **The Routine**: From the shared bath and full-body foam massage to the final gentle release, every step is a masterfully crafted sensory trap.
 
 Here, water isn't just for cleaning—it's the medium for heat, power, and primal desire. It is a dual baptism of soul and flesh.🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_soapy_massage_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soapy_massage_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_soapy_toes_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_soapy_toes_02_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_soapy_massage_splash_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_soapy_massage_splash_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_soapy_toes_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_soapy_toes_01_00001_.mp4" type="video/mp4"></video>
+

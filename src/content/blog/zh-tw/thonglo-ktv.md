@@ -15,3 +15,7 @@ pubDate: '2025-08-27'
 - **時段選擇**：晚上 9 點過後，正是氣氛最曖昧的時刻。
 
 在這裡，金錢買到的不僅是酒，更是那種被全世界寵愛的幻覺。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_thonglo_ktv_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_thonglo_ktv_00001_.mp4" type="video/mp4"></video>
+

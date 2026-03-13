@@ -15,3 +15,7 @@ pubDate: '2026-01-18'
 - **放松心态**：不要害羞，深呼吸并配合师傅的节奏，效果最为惊人。
 
 这是一场关于男人的自我修行，也是泰国夜生活最神秘的文化资产。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_grab_long_jin_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_grab_long_jin_00001_.mp4" type="video/mp4"></video>
+

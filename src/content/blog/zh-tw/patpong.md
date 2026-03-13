@@ -22,3 +22,7 @@ pubDate: '2025-10-12'
 ### 💡 建議行程
 
 建議下午先去 Silom 周邊吃美食，晚上 8 點左右來逛逛夜市，隨後選一家一樓的 Go-Go Bar 喝杯飲料感受氣氛即可。
+
+
+<video autoplay loop muted playsinline poster="/videos/video_patpong_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_patpong_00001_.mp4" type="video/mp4"></video>
+

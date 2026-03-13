@@ -24,3 +24,11 @@ Soi Cowboy 是一條長約 150 公尺的小巷子，位於 Sukhumvit Soi 21 與 
 
 ### 📍 霓虹倒影中的魅力
 ![極致長腿](../../../assets/gallery/legs_3.png)
+
+
+<video autoplay loop muted playsinline poster="/videos/video_soi_cowboy_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_soi_cowboy_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_soi_cowboy_bustle_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_soi_cowboy_bustle_00001_.mp4" type="video/mp4"></video>
+

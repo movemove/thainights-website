@@ -19,3 +19,7 @@ These venues typically operate on a "Member Card" system:
 1.  **Membership**: Requires the purchase of multiple bottles of premium spirits.
 2.  **Model Fees**: Companions are billed by "Starts" (time intervals).
 3.  **Tips**: It's recommended to have 100 THB bills ready for tipping.
+
+
+<video autoplay loop muted playsinline poster="/videos/video_gentlemens_clubs_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_gentlemens_clubs_00001_.mp4" type="video/mp4"></video>
+

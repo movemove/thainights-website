@@ -15,3 +15,7 @@ pubDate: '2025-08-27'
 - **时段选择**：晚上 9 点过后，正是气氛最暧昧的时刻。
 
 在这里，金钱买到的不仅是酒，更是那种被全世界宠爱的幻觉。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_thonglo_ktv_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_thonglo_ktv_00001_.mp4" type="video/mp4"></video>
+

@@ -15,3 +15,7 @@ pubDate: '2026-01-18'
 - **放鬆心態**：不要害羞，深呼吸並配合師傅的節奏，效果最為驚人。
 
 這是一場關於男人的自我修行，也是泰國夜生活最神祕的文化資產。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_grab_long_jin_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_grab_long_jin_00001_.mp4" type="video/mp4"></video>
+

@@ -15,3 +15,7 @@ pubDate: '2025-12-20'
 - **环境差异**：从路边小店到带有空调的高级店，价格通常落在 700-1500 泰铢之间。
 
 这是一场感官的快闪，也是都市压力最快速的出口。🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_bj_bars_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_bj_bars_00001_.mp4" type="video/mp4"></video>
+

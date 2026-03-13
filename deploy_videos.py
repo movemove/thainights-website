@@ -1,6 +1,7 @@
 import os
 import subprocess
 import re
+import json
 
 # Mapping of file keywords to blog slugs
 SLUG_MAP = {
@@ -43,15 +44,14 @@ def run_cmd(cmd):
 def sync_videos():
     os.makedirs(VIDEO_DIR, exist_ok=True)
     print("Fetching video list from Google Drive...")
-    res = run_cmd(["gog", "drive", "ls", "-p", "--limit", "1000", "--query", "mimeType = 'video/mp4'"])
-    lines = res.stdout.strip().split('\n')
+    res = run_cmd(["gog", "drive", "ls", "-j", "--limit", "1000", "--query", "mimeType = 'video/mp4' or name contains '.mp4'"])
+    data = json.loads(res.stdout)
+    files = data.get('files', [])
     
-    video_assignments = {} # {slug: [video_paths]}
+    video_assignments = {} 
 
-    for line in lines[1:]:
-        parts = line.split('\t')
-        if len(parts) < 2: continue
-        file_id, filename = parts[0], parts[1]
+    for f in files:
+        file_id, filename = f['id'], f['name']
         
         if not filename.startswith("ThaiNights_"): continue
         

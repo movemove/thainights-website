@@ -23,3 +23,19 @@ pubDate: '2025-08-24'
 ### 💡 小建議
 
 建議可以在黃昏時分先在海灘邊喝杯啤酒，等到 9 點之後再正式進入 Walking Street，那是氣氛最高昂的時刻！🐾
+
+
+<video autoplay loop muted playsinline poster="/videos/video_walking_street_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_walking_street_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_beach_barefoot_01_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_beach_barefoot_01_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/feet_video_beach_barefoot_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/feet_video_beach_barefoot_02_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_walking_street_dance_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_walking_street_dance_00001_.mp4" type="video/mp4"></video>
+

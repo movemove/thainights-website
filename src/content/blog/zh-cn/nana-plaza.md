@@ -20,3 +20,11 @@ Nana Plaza 被誉为「世界上最大的成人游乐场」。位于 Sukhumvit S
 
 1. 进店后先看酒单确认价格，通常啤酒在 150-200 泰铢左右。
 2. 请妹妹喝饮料 (Ladydrink) 之前，先确认价格，避免结帐时产生不必要的纠纷。
+
+
+<video autoplay loop muted playsinline poster="/videos/fast_nana_plaza_fast_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/fast_nana_plaza_fast_00001_.mp4" type="video/mp4"></video>
+
+
+
+<video autoplay loop muted playsinline poster="/videos/video_nana_plaza_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_nana_plaza_00001_.mp4" type="video/mp4"></video>
+
