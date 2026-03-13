@@ -39,9 +39,9 @@ def run_cmd(cmd):
     return subprocess.run(cmd, capture_output=True, text=True, env=env)
 
 def sync_media():
-    print("Listing images on Drive...")
-    # Get all images
-    res = run_cmd(["gog", "drive", "ls", "-p", "--limit", "1000"])
+    print("Listing files on Drive...")
+    # Get all images using the query that worked before
+    res = run_cmd(["gog", "drive", "ls", "-p", "--limit", "500", "--query", "mimeType = 'image/png' or mimeType = 'image/jpeg' or mimeType = 'video/mp4'"])
     lines = res.stdout.strip().split('\n')
     
     found_any = False
