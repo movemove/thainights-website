@@ -19,6 +19,8 @@ MAPPING = {
     "lk-metro-pattaya": "lk-metro-pattaya",
     "scam-prevention": "scam-prevention",
     "budget-guide": "budget-guide",
+    "bangkok-metro-guide": "bangkok-metro-guide",
+    "thai-sim-guide": "thai-sim-guide",
     "pattaya_guide": "pattaya_guide"
 }
 
