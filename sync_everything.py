@@ -1,9 +1,10 @@
 import os
 import subprocess
-import re
+import json
+import random
 
-# Slug mapping for articles
-MAPPING = {
+# Mapping of file keywords to blog slugs
+SLUG_MAP = {
     "nana": "nana-plaza",
     "cowboy": "soi-cowboy",
     "patpong": "patpong",
@@ -12,16 +13,18 @@ MAPPING = {
     "soapy": "soapy-massage-deep",
     "massage": "massage-guide",
     "longjin": "grab-long-jin",
-    "bjbar": "bangkok-bj-bars",
+    "grab": "grab-long-jin",
+    "bj": "bangkok-bj-bars",
     "gentlemen": "gentlemens-clubs",
     "ktv": "thonglo-ktv",
     "eden": "eden-bangkok",
     "jodd": "jodd-fairs-nightlife",
     "walking": "pattaya-walking-street",
+    "ws": "pattaya-walking-street",
     "metro": "lk-metro-pattaya",
     "scam": "scam-prevention",
     "budget": "budget-guide",
-    "pattaya_guide": "pattaya_guide"
+    "windmill": "windmill-pattaya"
 }
 
 ASSETS_DIR = "/home/alice/.openclaw/workspace/thainights_pages/src/assets"
@@ -40,12 +43,12 @@ def run_cmd(cmd):
 
 def sync_media():
     print("Listing files on Drive...")
-    # Get all images using the query that worked before
-    res = run_cmd(["gog", "drive", "ls", "-p", "--limit", "500", "--query", "mimeType = 'image/png' or mimeType = 'image/jpeg' or mimeType = 'video/mp4'"])
+    res = run_cmd(["gog", "drive", "ls", "-p", "--limit", "1000", "--query", "mimeType = 'image/png' or mimeType = 'image/jpeg' or mimeType = 'video/mp4'"])
     lines = res.stdout.strip().split('\n')
     
     found_any = False
-    
+    downloaded_hero_slugs = set()
+
     for line in lines[1:]:
         parts = line.split('\t')
         if len(parts) < 2: continue
@@ -53,52 +56,51 @@ def sync_media():
         file_id = parts[0]
         filename = parts[1]
         
-        # Check for ThaiNights prefix
         if not filename.startswith("ThaiNights_"): continue
-        
-        print(f"Checking file: {filename}")
         found_any = True
         
         # Determine target category
         target_slug = None
-        for key, slug in MAPPING.items():
+        for key, slug in SLUG_MAP.items():
             if key in filename.lower():
                 target_slug = slug
                 break
         
-        if not target_slug:
-            # Special categories
-            if "high_heels" in filename.lower() or "elitelegs" in filename.lower() or "feet" in filename.lower():
-                # These go to gallery
-                dest_path = os.path.join(GALLERY_DIR, filename)
-                if not os.path.exists(dest_path):
-                    print(f"Downloading gallery item: {filename}")
-                    run_cmd(["gog", "drive", "download", file_id, "--out", dest_path])
+        # Handle Gallery items
+        if "high_heels" in filename.lower() or "elitelegs" in filename.lower() or "feetdetail" in filename.lower():
+            dest_path = os.path.join(GALLERY_DIR, filename)
+            if not os.path.exists(dest_path):
+                print(f"Downloading gallery item: {filename}")
+                run_cmd(["gog", "drive", "download", file_id, "--out", dest_path])
             continue
 
-        # Is it a video?
+        if not target_slug:
+            continue
+
+        # Handle Videos
         if filename.endswith(".mp4"):
             dest_path = os.path.join(VIDEO_DIR, f"{target_slug}.mp4")
             if not os.path.exists(dest_path):
                 print(f"Downloading video: {filename} -> {target_slug}.mp4")
                 run_cmd(["gog", "drive", "download", file_id, "--out", dest_path])
-                # Generate poster
                 poster_path = os.path.join(VIDEO_DIR, f"{target_slug}_poster.jpg")
                 subprocess.run(["ffmpeg", "-y", "-i", dest_path, "-ss", "00:00:01", "-vframes", "1", "-f", "image2", poster_path])
         
-        # Is it an image?
+        # Handle Hero Images
         elif filename.endswith((".png", ".jpg", ".jpeg")):
-            # If it's a hero image (contains 01)
-            if "_01" in filename or target_slug not in os.listdir(HERO_DIR):
+            # If it's a primary hero (01) or we haven't got one yet
+            is_primary = "_01" in filename or "_01" not in filename # fallback
+            
+            if target_slug not in downloaded_hero_slugs:
                 dest_path = os.path.join(HERO_DIR, f"{target_slug}.png")
-                # Overwrite or fill missing
                 print(f"Downloading hero image: {filename} -> {target_slug}.png")
                 run_cmd(["gog", "drive", "download", file_id, "--out", dest_path])
+                downloaded_hero_slugs.add(target_slug)
             else:
                 # Extra photos go to gallery
                 dest_path = os.path.join(GALLERY_DIR, filename)
                 if not os.path.exists(dest_path):
-                    print(f"Downloading extra photo: {filename}")
+                    print(f"Downloading extra photo to gallery: {filename}")
                     run_cmd(["gog", "drive", "download", file_id, "--out", dest_path])
     
     if not found_any:
