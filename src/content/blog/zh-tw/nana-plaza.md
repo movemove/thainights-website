@@ -8,6 +8,8 @@ pubDate: '2026-03-08'
 
 位於 Sukhumvit Soi 4 的 Nana Plaza，不僅是一座建築，它是曼谷成人娛樂的靈魂圖騰。這座呈「U」字型的三層建築，每一層都散發著不同頻率的誘惑。
 
+<video autoplay loop muted playsinline poster="/videos/nana-plaza-hero-poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/nana-plaza-hero.mp4" type="video/mp4"></video>
+
 ### 🌀 慾望的第一層：震耳欲聾的開端
 當你踏入中庭，巨大的音樂聲浪會瞬間包裹你的全身。一樓的 Go-Go Bar 如 Rainbow 4，總是擠滿了熱辣的女孩。在這裡，互動是直接且充滿力量的。當你坐在舞台邊，女孩們在鋼管上旋轉，她們緊緻的大腿會在與你對視時，有意無意地滑過你的肩頭。那種帶著汗水與亮粉的肌膚觸感，是這場感官螺旋的初始推力。
 

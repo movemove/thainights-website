@@ -8,6 +8,8 @@ pubDate: '2026-03-08'
 
 Nana Plaza 被誉为「世界上最大的成人游乐场」。位于 Sukhumvit Soi 4，这座三层楼的建筑物就像是一个微型都市，每一层都有其独特的风格与魅力。
 
+<video autoplay loop muted playsinline poster="/videos/nana-plaza-hero-poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/nana-plaza-hero.mp4" type="video/mp4"></video>
+
 ### 🏆 推荐店家
 
 - **Straps (2F)**: 这里的气氛极佳，Ladyboy 们的素质也非常高，适合想要初次尝试不同体验的朋友。
