@@ -1,4 +1,5 @@
 ---
+heroImage: "../../../assets/hero/thai-sim-guide.png"
 title: "欲望的连结：2026 泰国 SIM 卡与高速网络全攻略"
 description: "在泰国的深夜，断网等于断了灵魂。一篇教你如何保持 24 小时在线。"
 pubDate: "2026-03-14"
@@ -14,3 +15,6 @@ pubDate: "2026-03-14"
 ### 💡 老司机的连线之道
 - **机场购买**：虽然稍微贵一点点，但现场帮你设定到好。
 - **eSIM 优先**：如果你使用的是最新款手机，eSIM 能让你免去换卡的繁琐，优雅地在落地时瞬间连线。🐾
+
+
+![SIM Card Guide 2](../../../assets/hero/thai-sim-guide-2.png)

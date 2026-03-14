@@ -1,4 +1,5 @@
 ---
+heroImage: "../../../assets/hero/thai-sim-guide.png"
 title: "慾望的連結：2026 泰國 SIM 卡與高速網路全攻略"
 description: "在泰國的深夜，斷網等於斷了靈魂。一篇教你如何保持 24 小時在線。"
 pubDate: "2026-03-14"
@@ -14,3 +15,6 @@ pubDate: "2026-03-14"
 ### 💡 老司機的連線之道
 - **機場購買**：雖然稍微貴一點點，但現場幫你設定到好。
 - **eSIM 優先**：如果你使用的是最新款手機，eSIM 能讓你免去換卡的繁瑣，優雅地在落地時瞬間連線。🐾
+
+
+![SIM Card Guide 2](../../../assets/hero/thai-sim-guide-2.png)
