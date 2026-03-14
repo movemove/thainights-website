@@ -10,9 +10,17 @@ const t = useTranslations(lang);
     <div class="warning">
         {t('footer.warning')}
     </div>
+    <div class="social-links">
+        <a href="https://x.com/ThaiNightsNet" target="_blank" rel="noopener noreferrer" class="social-link">
+            𝕏 (Twitter)
+        </a>
+        <a href="https://www.instagram.com/thainights/" target="_blank" rel="noopener noreferrer" class="social-link">
+            Instagram
+        </a>
+    </div>
 	&copy; {today.getFullYear()} {t('footer.text')}
     <div class="version">
-        v1.0.6-e44f136
+        v1.0.7-3f8d2e1
     </div>
 </footer>
 <style>
@@ -34,6 +42,23 @@ const t = useTranslations(lang);
         display: inline-block;
         border-radius: 8px;
         background: rgba(255, 68, 68, 0.05);
+    }
+    .social-links {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .social-link {
+        color: var(--neon-blue);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        transition: color 0.3s, text-shadow 0.3s;
+    }
+    .social-link:hover {
+        color: var(--neon-pink);
+        text-shadow: 0 0 10px var(--neon-pink);
     }
     .version {
         margin-top: 15px;
