@@ -1,5 +1,5 @@
 ---
-heroImage: "../../../assets/hero/bangkok-metro-guide.png"
+heroImage: "../../../assets/hero/bangkok-metro-guide.jpg"
 title: "穿梭霓虹龍脊：曼谷捷運 BTS 與 MRT 終極生存指南"
 description: "在曼谷不夜城的鋼鐵森林中，搭乘捷運是你最優雅的移動方式。"
 pubDate: "2026-03-14"

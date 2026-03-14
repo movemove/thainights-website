@@ -1,5 +1,5 @@
 ---
-heroImage: "../../../assets/hero/bangkok-metro-guide.png"
+heroImage: "../../../assets/hero/bangkok-metro-guide.jpg"
 title: "Riding the Neon Spine: The Ultimate Bangkok BTS & MRT Survival Guide"
 description: "Glide through the concrete jungle of Bangkok elegantly using the city's advanced rail network."
 pubDate: "2026-03-14"
