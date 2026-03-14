@@ -18,3 +18,6 @@ The market is led by AIS, TrueMove H, and DTAC. In the densest red-light distric
 
 
 ![SIM Card Guide 2](../../../assets/hero/thai-sim-guide-2.png)
+
+
+![Thai SIM Guide Detail](../../../assets/hero/thai-sim-guide-2.jpg)

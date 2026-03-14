@@ -18,3 +18,6 @@ pubDate: "2026-03-14"
 
 
 ![SIM Card Guide 2](../../../assets/hero/thai-sim-guide-2.png)
+
+
+![Thai SIM Guide Detail](../../../assets/hero/thai-sim-guide-2.jpg)
