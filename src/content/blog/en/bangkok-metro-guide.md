@@ -1,4 +1,5 @@
 ---
+heroImage: "../../../assets/hero/bangkok-metro-guide.png"
 title: "Riding the Neon Spine: The Ultimate Bangkok BTS & MRT Survival Guide"
 description: "Glide through the concrete jungle of Bangkok elegantly using the city's advanced rail network."
 pubDate: "2026-03-14"
@@ -17,3 +18,6 @@ In contrast to the vibrant BTS, the MRT is a deep, cool artery carrying you to t
 ### 💡 Professional Veteran Tips
 - **Rabbit Card & MRT Card**: Get both. Skipping the long ticket queues during peak hours provides a sense of control that defines a true veteran.
 - **The Temperature Shock**: Carriages are frigid. Bring a light layer. Stepping back onto the platform, the wave of heat and the smell of the street will consume you again—that is the true taste of Bangkok.🐾
+
+
+![Bangkok Metro Guide Detail](../../../assets/hero/bangkok-metro-guide-2.png)
