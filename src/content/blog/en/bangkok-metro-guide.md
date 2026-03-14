@@ -21,3 +21,6 @@ In contrast to the vibrant BTS, the MRT is a deep, cool artery carrying you to t
 
 
 ![Bangkok Metro Guide Detail](../../../assets/hero/bangkok-metro-guide-2.png)
+
+
+![Bangkok Metro Guide Detail 2](../../../assets/hero/bangkok-metro-guide-2.jpg)
