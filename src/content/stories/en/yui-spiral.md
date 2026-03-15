@@ -2,7 +2,7 @@
 title: "The Black Baptism of Bangkok ── Ultimate Spiral with 'Yui'"
 description: "To the melody of Stay with me, I engaged in a profound exchange of soul and flesh with Yui in the heart of Bangkok."
 pubDate: "2026-03-16"
-heroImage: "../../../assets/hero/yui-spiral.png"
+heroImage: '../../../assets/hero/soi-cowboy.png'
 ---
 
 Miki Matsubara's "Stay with Me" plays in my ears, the upbeat City Pop rhythm pulsating through Crazy House, yet failing to drown out the air of logic-shattering decadence.

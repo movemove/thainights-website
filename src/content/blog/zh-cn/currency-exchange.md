@@ -1,4 +1,5 @@
 ---
+heroImage: '../../../assets/hero/budget-guide.png'
 title: "欲望的筹码：曼谷换汇与现金管理，优雅挥霍的艺术"
 description: "在曼谷的深夜，现金就是你的通行证。一篇教你如何换到最漂亮的汇率。"
 pubDate: "2026-03-14"

@@ -2,7 +2,7 @@
 title: "Pattaya Soi 6 Wild Dream: The Alley-Battle Melody with 'Joy'"
 description: "The 3 PM sun is scorching, but inside a dim second-floor room in Soi 6, a storm crazier than the heat is brewing..."
 pubDate: "2026-03-13"
-heroImage: "../../../assets/hero/soi6-adventure.png"
+heroImage: '../../../assets/hero/soi6-pattaya.png'
 ---
 
 Walking down the narrow corridor of Pattaya's Soi 6, the calls from both sides were relentless. I was pulled into a small bar named "Candy" by a pair of strong, determined hands. The owner of those hands was **Joy**, wearing a nearly transparent yellow Pikachu bikini. Her tanned skin glowed seductively under the neon lights.

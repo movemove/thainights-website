@@ -2,7 +2,7 @@
 title: "The Midnight Spiral of Thermae ── Ultimate Sensory Baptism with 'Mina'"
 description: "Pushed open the heavy wooden doors that seemed to cut off time, cold air mixed with hundreds of perfumes instantly wrapped around me..."
 pubDate: "2026-03-13"
-heroImage: "../../../assets/hero/thermae-mina.png"
+heroImage: '../../../assets/hero/thermae-coffee.png'
 ---
 
 The neon lights of Bangkok flickered outside the window. Inside, the dim orange bedside lamp cast Mina's silhouette against the wall, swaying slightly with her movements. The air was thick with the aftertaste of alcohol mixed with her faint jasmine scent.

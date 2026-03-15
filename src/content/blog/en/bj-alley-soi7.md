@@ -1,4 +1,5 @@
 ---
+heroImage: '../../../assets/hero/bangkok-bj-bars.png'
 title: "The Secret Throat Corridor: Bangkok’s Soi 7/1 – A Sensory Blitzkrieg"
 description: "Discover the legend of Bangkok's famous BJ Alley hidden in the heart of Sukhumvit."
 pubDate: "2025-12-05"

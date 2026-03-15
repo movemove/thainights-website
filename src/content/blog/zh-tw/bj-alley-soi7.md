@@ -1,4 +1,5 @@
 ---
+heroImage: '../../../assets/hero/bangkok-bj-bars.png'
 title: "隱秘的喉間走廊：曼谷 Soi 7/1，極致效率的感官閃擊戰"
 description: "在 Sukhumvit 的隱祕巷弄中，體驗曼谷最負盛名的口爆街傳奇。"
 pubDate: "2025-12-05"

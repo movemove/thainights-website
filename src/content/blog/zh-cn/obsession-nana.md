@@ -1,4 +1,5 @@
 ---
+heroImage: '../../../assets/hero/ladyboy-bars-guide.png'
 title: "魅惑的巅峰：Obsession Nana Plaza，挑战认知的感官风暴"
 description: "在 Nana Plaza 二楼的角落，藏着一个能让你彻底忘记现实的变装乐园。"
 pubDate: "2025-12-05"
