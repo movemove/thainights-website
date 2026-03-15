@@ -19,3 +19,9 @@ pubDate: '2026-01-18'
 
 <video autoplay loop muted playsinline poster="/videos/video_grab_long_jin_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/video_grab_long_jin_00001_.mp4" type="video/mp4"></video>
 
+
+
+--- 
+
+### 📸 視覺進化：深度氛圍
+![Evolution](../../../assets/hero/grab-long-jin-evolution.png)

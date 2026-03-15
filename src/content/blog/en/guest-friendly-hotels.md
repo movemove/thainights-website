@@ -1,4 +1,5 @@
 ---
+heroImage: "../../../assets/hero/guest-friendly-hotels.png"
 title: "Safe Havens of Desire: The Ultimate Guest-Friendly Hotels in Bangkok & Pattaya"
 description: "In the depths of the Thai night, choosing the right 'sanctuary' is the final step to an elegant retreat."
 pubDate: "2025-11-15"

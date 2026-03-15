@@ -22,3 +22,7 @@ If you're traveling solo and want to feel the raw energy of the city, Bolt's mot
 
 
 ![Grab Ride Hailing Street](../../../assets/hero/ride-hailing-apps-3.jpg)
+
+
+### 📸 深夜移動的質感
+![Ride Hailing New](../../../assets/hero/ride-hailing-apps-new.png)

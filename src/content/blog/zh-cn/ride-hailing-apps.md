@@ -22,3 +22,7 @@ Grab 就像是曼谷夜生活中的管家。虽然价格稍微高一点点，但
 
 
 ![Grab Ride Hailing Street](../../../assets/hero/ride-hailing-apps-3.jpg)
+
+
+### 📸 深夜移動的質感
+![Ride Hailing New](../../../assets/hero/ride-hailing-apps-new.png)
