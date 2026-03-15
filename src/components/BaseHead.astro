@@ -9,12 +9,13 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string | { src: string };
+    pubDate?: Date;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const lang = getLangFromUrl(Astro.url);
 
-const { title, description, image = '/main-og.png' } = Astro.props;
+const { title, description, image = '/main-og.png', pubDate } = Astro.props;
 const finalImage = typeof image === 'string' ? image : image?.src || '/main-og.png';
 
 // Generate alternate language URLs for SEO
@@ -34,41 +35,65 @@ const breadcrumbItems = [
         "position": 1,
         "name": "Home",
         "item": Astro.site.href
-    },
-    ...pathSegments.map((part, i) => ({
+    }
+];
+
+pathSegments.forEach((part, i) => {
+    breadcrumbItems.push({
         "@type": "ListItem",
         "position": i + 2,
         "name": part.charAt(0).toUpperCase() + part.slice(1),
         "item": new URL('/' + pathSegments.slice(0, i + 1).join('/'), Astro.site).href
-    }))
+    });
+});
+
+const graph = [
+    {
+        "@type": "WebSite",
+        "@id": `${Astro.site.href}#website`,
+        "url": Astro.site.href,
+        "name": "ThaiNights",
+        "description": "泰國夜生活探險指南",
+        "publisher": {
+            "@id": `${Astro.site.href}#organization`
+        }
+    },
+    {
+        "@type": "Organization",
+        "@id": `${Astro.site.href}#organization`,
+        "name": "ThaiNights",
+        "url": Astro.site.href,
+        "logo": {
+            "@type": "ImageObject",
+            "url": new URL('/favicon.svg', Astro.site).href
+        }
+    },
+    {
+        "@type": "BreadcrumbList",
+        "@id": `${Astro.url.href}#breadcrumb`,
+        "itemListElement": breadcrumbItems
+    }
 ];
 
-const structuredData = [
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "ThaiNights",
-        "url": Astro.site.href
-    },
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": breadcrumbItems
-    },
-    {
-        "@context": "https://schema.org",
+// Add Article schema only if pubDate exists (i.e., it's a blog post)
+if (pubDate) {
+    graph.push({
         "@type": "Article",
+        "@id": `${Astro.url.href}#article`,
         "headline": title,
         "description": description,
         "image": [new URL(finalImage, Astro.url).href],
         "author": {
             "@type": "Organization",
             "name": "ThaiNights",
-            "url": "https://thainights.net"
+            "url": Astro.site.href
         },
-        "datePublished": "2026-03-12T08:00:00+08:00"
-    }
-];
+        "datePublished": pubDate.toISOString(),
+        "mainEntityOfPage": {
+            "@id": Astro.url.href
+        }
+    });
+}
 ---
 
 <!-- Global Metadata -->
@@ -125,4 +150,7 @@ const structuredData = [
 <meta property="twitter:image" content={new URL(finalImage, Astro.url)} />
 
 <!-- Structured Data -->
-<script type="application/ld+json" is:inline set:html={JSON.stringify(structuredData)} />
+<script type="application/ld+json" is:inline set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": graph
+})} />
