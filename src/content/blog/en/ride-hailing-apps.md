@@ -16,3 +16,6 @@ If you're traveling solo and want to feel the raw energy of the city, Bolt's mot
 ### 💡 Mobile Veteran Tips
 - **Precise Pickup**: At massive clubs, walk a block away before booking to help your driver find you.
 - **Card Over Cash**: Bind your credit card to the app. Stepping out of a car without worrying about small change lets you depart like a true high-roller.🐾
+
+
+![Grab Ride Hailing Detail](../../../assets/hero/ride-hailing-apps-2.jpg)
