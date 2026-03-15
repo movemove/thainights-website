@@ -1,4 +1,5 @@
 ---
+heroImage: "../../../assets/hero/ride-hailing-apps.jpg"
 title: "午夜大逃殺：Grab 與 Bolt，曼谷深夜的移動堡壘"
 description: "告別路邊攔車的勾心鬥角，用手機召喚你專屬的深夜避風港。"
 pubDate: "2026-03-14"
