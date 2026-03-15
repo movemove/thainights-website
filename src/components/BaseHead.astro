@@ -59,6 +59,83 @@ const alternates = [
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
+// Structured Data logic
+const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
+const breadcrumbItems = [
+    {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": Astro.site.href
+    },
+    ...pathSegments.map((part, i) => ({
+        "@type": "ListItem",
+        "position": i + 2,
+        "name": part.charAt(0).toUpperCase() + part.slice(1),
+        "item": new URL('/' + pathSegments.slice(0, i + 1).join('/'), Astro.site).href
+    }))
+];
+
+const structuredData = [
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ThaiNights",
+        "url": Astro.site.href
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": breadcrumbItems
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": description,
+        "image": [new URL(finalImage, Astro.url).href],
+        "author": {
+            "@type": "Organization",
+            "name": "ThaiNights",
+            "url": "https://thainights.net"
+        },
+        "datePublished": "2026-03-12T08:00:00+08:00"
+    }
+];
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" href="/favicon.ico" />
+<link rel="sitemap" href="/sitemap-index.xml" />
+<link
+	rel="alternate"
+	type="application/rss+xml"
+	title={SITE_TITLE}
+	href={new URL('rss.xml', Astro.site)}
+/>
+<meta name="generator" content={Astro.generator} />
+
+<!-- Language / Hreflang SEO -->
+<meta name="language" content={lang} />
+{alternates.map(alt => (
+    <link rel="alternate" hreflang={alt.lang} href={alt.href} />
+))}
+
+<!-- SEO / Keywords -->
+<meta name="keywords" content="泰國夜生活, 曼谷暗黑行程, Nana Plaza, Soi Cowboy, 泰國紅燈區, 曼谷按摩, 泰國旅遊, 泰國避坑, 泰國夜遊, 2026泰國旅遊, 泰国夜生活, 曼谷暗黑行程, 泰国红灯区, Thailand Nightlife, Bangkok Nightlife Guide, Pattaya Walking Street" />
+<meta name="author" content="ThaiNights" />
+<meta name="robots" content="index, follow" />
+
+<!-- Font preloads -->
+<link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
+<link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
 <!-- Primary Meta Tags -->
 <title>{title} | {SITE_TITLE}</title>
 <meta name="title" content={`${title} | ${SITE_TITLE}`} />
@@ -80,35 +157,5 @@ const alternates = [
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(finalImage, Astro.url)} />
 
-<!-- Structured Data: Combined WebSite, Article, and Breadcrumbs -->
-<script type="application/ld+json" is:inline set:html={JSON.stringify([
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "ThaiNights",
-        "url": "https://thainights.net"
-    },
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": Astro.url.pathname.split('/').filter(Boolean).map((part, i, arr) => ({
-            "@type": "ListItem",
-            "position": i + 1,
-            "name": part.charAt(0).toUpperCase() + part.slice(1),
-            "item": new URL('/' + arr.slice(0, i + 1).join('/'), Astro.site)
-        }))
-    },
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": title,
-        "description": description,
-        "image": [new URL(finalImage, Astro.url)],
-        "author": {
-            "@type": "Organization",
-            "name": "ThaiNights",
-            "url": "https://thainights.net"
-        },
-        "datePublished": "2026-03-12T08:00:00+08:00"
-    }
-])} />
+<!-- Structured Data -->
+<script type="application/ld+json" is:inline set:html={JSON.stringify(structuredData)} />
