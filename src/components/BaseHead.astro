@@ -25,39 +25,6 @@ const alternates = [
     { lang: 'en', href: new URL(`/en${currentPath}`, Astro.site) },
     { lang: 'x-default', href: new URL(currentPath, Astro.site) }
 ];
----
-
-<!-- Global Metadata -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="icon" href="/favicon.ico" />
-<link rel="sitemap" href="/sitemap-index.xml" />
-<link
-	rel="alternate"
-	type="application/rss+xml"
-	title={SITE_TITLE}
-	href={new URL('rss.xml', Astro.site)}
-/>
-<meta name="generator" content={Astro.generator} />
-
-<!-- Language / Hreflang SEO -->
-<meta name="language" content={lang} />
-{alternates.map(alt => (
-    <link rel="alternate" hreflang={alt.lang} href={alt.href} />
-))}
-
-<!-- SEO / Keywords -->
-<meta name="keywords" content="泰國夜生活, 曼谷暗黑行程, Nana Plaza, Soi Cowboy, 泰國紅燈區, 曼谷按摩, 泰國旅遊, 泰國避坑, 泰國夜遊, 2026泰國旅遊, 泰国夜生活, 曼谷暗黑行程, 泰国红灯区, Thailand Nightlife, Bangkok Nightlife Guide, Pattaya Walking Street" />
-<meta name="author" content="ThaiNights" />
-<meta name="robots" content="index, follow" />
-
-<!-- Font preloads -->
-<link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
-<link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
-
-<!-- Canonical URL -->
-<link rel="canonical" href={canonicalURL} />
 
 // Structured Data logic
 const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
