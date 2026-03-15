@@ -18,3 +18,6 @@ Grab 就像是曼谷夜生活中的管家。雖然價格稍微高一點點，但
 - **現金與綁卡**：強烈建議綁定信用卡，讓你到達目的地時能像紳士一樣直接推門下車，在夜色中優雅離去。🐾
 
 ![Grab Ride Hailing Detail](../../../assets/hero/ride-hailing-apps-2.jpg)
+
+
+![Grab Ride Hailing Street](../../../assets/hero/ride-hailing-apps-3.jpg)
