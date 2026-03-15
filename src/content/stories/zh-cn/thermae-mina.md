@@ -2,7 +2,7 @@
 title: "蛇美咖啡的午夜螺旋 ── 与「Mina」的极致感官洗礼"
 description: "推开那扇仿佛能隔绝时间的沉重木门，冰冷的空调冷气夹杂着上百种香水味瞬间将我包裹..."
 pubDate: "2026-03-13"
-heroImage: "../../../assets/hero/thermae-coffee.png"
+heroImage: "../../../assets/hero/thermae-mina.png"
 ---
 
 曼谷的霓虹灯火在窗外闪烁，房内那盏橘黄色的床头灯将 Mina 的剪影投射在墙上，随着她的动作微微晃动。空气中混合着酒精的余味与她身上淡淡的茉莉香。

@@ -2,7 +2,7 @@
 title: "芭提雅 Soi 6 的狂野白日梦：与「Joy」的巷战旋律"
 description: "下午三点的阳光炙热，但在 Soi 6 的幽暗二楼，有一场比烈日更疯狂的风暴正在酝酿..."
 pubDate: "2026-03-13"
-heroImage: "../../../assets/hero/soi6-pattaya.png"
+heroImage: "../../../assets/hero/soi6-adventure.png"
 ---
 
 走在芭提雅 Soi 6 的窄巷中，两侧的呼唤声此起彼伏。我被一双强而有力的手拉进了一间名为「Candy」的小吧。那双手的主人叫 **Joy**，她穿着一身几乎透明的黄色皮卡丘比基尼，小麦色的肌肤在霓虹灯下散发着诱人的光泽。
