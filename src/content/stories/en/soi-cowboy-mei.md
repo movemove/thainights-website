@@ -13,7 +13,7 @@ Right across from "Baccara," at the corner of a narrow alley, I was caught by a 
 
 She flashed an incredibly bright smile, her right hand waving light through the air as if tracing a mysterious sigil. As I approached, she playfully winked her left eye, and a warm breath mixed with mint and sweat hit my neck as she leaned in. "Come in, handsome. Just one drink," she whispered, her warm fingertips tracing a line along my arm. That raw, public tease hit me faster than any shot of whiskey.
 
-<video autoplay loop muted playsinline poster="/videos/beckonopt10s_02_00001__poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/beckonopt10s_02_00001_.mp4" type="video/mp4"></video>
+<video autoplay loop muted playsinline poster="/videos/beckon-opt-10s-02-poster.jpg" style="width: 100%; border-radius: 12px; margin: 2rem 0;"><source src="/videos/beckon-opt-10s-02.mp4" type="video/mp4"></video>
 
 ### 🔥 The Second Spiral: Couch Combat
 
