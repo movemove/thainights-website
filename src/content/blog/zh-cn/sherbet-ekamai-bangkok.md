@@ -2,7 +2,7 @@
 title: "丝绒迷宫：雪贝曼谷伊卡迈“肉林”之夜"
 description: "沉浸式体验 Sherbet Ekamai 的高端感官过载，在这里，奢华与多位佳丽 VIP 体验的极致触感享受交织。"
 pubDate: "2026-03-16"
-heroImage: "../../../assets/hero/sherbet-ekamai-bangkok.png"
+# heroImage: "../../../assets/hero/sherbet-ekamai-bangkok.png"
 ---
 
 步入 Sherbet Ekamai 厚重的金边大门，仿佛从曼谷潮湿的混乱中跨入了一个充满极致奢华的加压舱。室内空气清新，冷却到完美，弥漫着昂贵的祖玛珑香水味和高级日本威士忌的烟熏底蕴。这不只是一个夜店；它是欲望可能性的圣殿，是一个“高级且小众”的地标，在这里，当丝绒幕帘拉开的一刻，“感官螺旋”便开始了。

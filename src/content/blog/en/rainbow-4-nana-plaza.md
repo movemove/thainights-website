@@ -2,7 +2,7 @@
 title: "The Crimson Vortex: A Night in the Meat Bath of Rainbow 4"
 description: "An immersive journey into the tactile chaos and carnal rewards of Bangkok’s most famous meat-bath bar, where the boundaries between bodies dissolve in a neon haze."
 pubDate: "2026-03-16"
-heroImage: "../../../assets/hero/rainbow-4-nana-plaza.png"
+# heroImage: "../../../assets/hero/rainbow-4-nana-plaza.png"
 ---
 
 Nana Plaza is a neon cathedral, a three-story monument to the pursuit of the ephemeral. But for those who seek more than just a passing glance, the second floor holds a specific kind of gravity. Stepping into Rainbow 4 isn’t just entering a bar; it’s surrendering to the 'meat bath.' The term sounds visceral, and it is. It’s a sensory overload where the air is thick with the scent of expensive perfume, cooling jasmine, and the underlying pheromonal hum of a hundred bodies in motion.

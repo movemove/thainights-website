@@ -2,7 +2,7 @@
 title: "The Velvet Descent: A Meat Bath Odyssey at The Pimp Gentlemen’s Club"
 description: "An immersive review of the premium VIP experience at Bangkok's legendary The Pimp, focusing on the tactile ecstasy of the body-to-body soap massage and a night of high-end indulgence."
 pubDate: "2026-03-16"
-heroImage: "../../../assets/hero/the-pimp-gentlemens-club.png"
+# heroImage: "../../../assets/hero/the-pimp-gentlemens-club.png"
 ---
 
 Stepping into The Pimp Gentlemen’s Club in Town in Town isn't just about entering a venue; it’s about crossing a threshold into a kingdom of curated desire. The air inside is a thick, intoxicating blend of expensive Creed Aventus, the sweet scent of jasmine garlands, and the underlying hum of deep bass that vibrates through the soles of your shoes. This is the 'Premium & Niche' category personified, where the neon lights of Bangkok fade into a blur of black marble and gold leaf. After a few glasses of Blue Label at the main stage, where the dancers moved like liquid fire, I was led by a tuxedoed host toward the private VIP suites. This is where the night truly began.

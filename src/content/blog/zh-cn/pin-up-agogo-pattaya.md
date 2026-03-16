@@ -2,7 +2,7 @@
 title: "霓虹迷宫：芭提雅 Pin-up Agogo 的“肉林”之夜"
 description: "一场沉浸式的感官超载之旅，揭秘 Pin-up Agogo 标志性的“肉林”氛围，深度探索触觉愉悦与肉欲探险的夜晚。"
 pubDate: "2026-03-16"
-heroImage: "../../../assets/hero/pin-up-agogo-pattaya.png"
+# heroImage: "../../../assets/hero/pin-up-agogo-pattaya.png"
 ---
 
 午夜的步行街（Walking Street）是一片光影与声浪的交响，但没有任何心理准备能让你抵御 Pin-up Agogo 那排山倒海般的氛围压力。它是芭提雅“肉林”（meat bath）体验中无可争议的重量级冠军。当自动门嘶嘶开启时，你不仅是进入了一家酒吧，而是被淹没在了一个潮湿、霓虹浸染的肉体海洋中。从空调冷气触碰皮肤的那一刻起，“感官螺旋”便开始了，空气中弥漫着昂贵香水、烟草以及百余名舞动身体散发出的费洛蒙气息。

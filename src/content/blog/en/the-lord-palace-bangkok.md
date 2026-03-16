@@ -2,7 +2,7 @@
 title: "Slippery Desires at The Lord Palace: A Masterclass in the Meat Bath"
 description: "An intimate exploration of Bangkok's most legendary massage institution, where skin-to-skin contact and opulent surroundings create the ultimate 'meat bath' experience."
 pubDate: "2026-03-16"
-heroImage: "../../../assets/hero/the-lord-palace-bangkok.png"
+# heroImage: "../../../assets/hero/the-lord-palace-bangkok.png"
 ---
 
 The neon hum of Huai Khwang is a siren song for the hedonist, and at the heart of this district stands a monument to carnal luxury: The Lord Palace Bangkok. Stepping through the heavy glass doors, you are immediately divorced from the chaos of the city. The air is cooler, scented with a blend of expensive sandalwood and a faint, electric hint of anticipation. This isn't just a massage parlor; it is a cathedral of the flesh, and I was here for the ritual known to connoisseurs as the 'meat bath.'
