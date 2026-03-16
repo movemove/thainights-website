@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<Layout
+	title="廣告合作"
+	description="與 ThaiNights.net 合作，接觸全球高端夜生活愛好者。"
+	pubDate={new Date('March 16 2026')}
+>
+	<div class="prose">
+		<p>
+			ThaiNights.net 是目前領先的泰國夜生活資訊平台，致力於為觀光客與老司機提供最真實、最精準的實戰評測與導航地圖。
+		</p>
+
+		<h2 style="color: var(--neon-pink);">🚀 為什麼選擇我們？</h2>
+		<ul>
+			<li><strong>全球覆蓋</strong>：支援繁體中文、簡體中文與英文，精準觸及來自台灣、香港、中國大陸與歐美的旅客。</li>
+			<li><strong>高品質視覺</strong>：我們使用最先進的 AI 技術產出高品質的宣傳圖片與影片，為您的店家建立專業且吸引人的品牌形象。</li>
+			<li><strong>精準流量</strong>：我們的讀者均為具備高度消費意願的高端玩家與深度旅遊者。</li>
+			<li><strong>地圖整合</strong>：您的店家將在我們的 Google 互動地圖中獲得優先標註，直接引導客流。</li>
+		</ul>
+
+		<h2 style="color: var(--neon-pink);">🤝 合作方案</h2>
+		<p>
+			我們提供多樣化的廣告合作模式，包含：
+			<ul>
+				<li><strong>精選評論 (Featured Review)</strong>：深度撰寫店家的特色與服務。</li>
+				<li><strong>首頁/側欄廣告位</strong>：獲得全站最高頻率的品牌曝光。</li>
+				<li><strong>影片拍攝與製作</strong>：量身打造適合社交媒體傳播的短影音。</li>
+				<li><strong>地圖優先標籤</strong>：在地圖中以特殊圖示顯示您的位置。</li>
+			</ul>
+		</p>
+
+		<h2 style="color: var(--neon-pink);">📩 聯繫我們</h2>
+		<p>
+			如果您對廣告合作感興趣，請直接透過電子郵件與我們聯繫，或在下方留言區留下您的聯絡方式，我們將由專人與您對接：
+		</p>
+		<p style="font-weight: bold; font-size: 1.2rem; color: var(--neon-blue);">
+			Email: applecardevice@gmail.com
+		</p>
+	</div>
+</Layout>

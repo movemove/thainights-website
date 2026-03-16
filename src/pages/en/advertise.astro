@@ -1,0 +1,46 @@
+---
+import Layout from '../../layouts/BlogPost.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<Layout
+	title="Advertise with us"
+	description="Partner with ThaiNights.net and reach elite nightlife enthusiasts globally."
+	pubDate={new Date('March 16 2026')}
+>
+	<div class="prose">
+		<p>
+			ThaiNights.net is a leading platform for Thailand's nightlife, dedicated to providing tourists and veterans with the most authentic and precise reviews and interactive maps.
+		</p>
+
+		<h2 style="color: var(--neon-pink);">🚀 Why Partner with Us?</h2>
+		<ul>
+			<li><strong>Global Reach</strong>: Supporting Traditional Chinese, Simplified Chinese, and English. We reach travelers from Taiwan, Hong Kong, Mainland China, and Western countries.</li>
+			<li><strong>High-Quality Visuals</strong>: We use advanced AI technology to produce high-quality promotional images and videos, building a professional and attractive brand image for your venue.</li>
+			<li><strong>Targeted Traffic</strong>: Our readers are high-spending players and deep travelers with strong consumption intent.</li>
+			<li><strong>Map Integration</strong>: Your venue will receive priority placement on our interactive Google Map, directing traffic straight to your door.</li>
+		</ul>
+
+		<h2 style="color: var(--neon-pink);">🤝 Partnership Options</h2>
+		<p>
+			We offer various advertising models, including:
+			<ul>
+				<li><strong>Featured Reviews</strong>: In-depth coverage of your venue's highlights and services.</li>
+				<li><strong>Homepage/Sidebar Ads</strong>: Maximum brand exposure across the site.</li>
+				<li><strong>Video Production</strong>: Custom short videos tailored for social media.</li>
+				<li><strong>Priority Map Icons</strong>: Custom icons to make your location stand out.</li>
+			</ul>
+		</p>
+
+		<h2 style="color: var(--neon-pink);">📩 Contact Us</h2>
+		<p>
+			If you are interested in a partnership, please contact us directly via email or leave your contact details in the discussion section below:
+		</p>
+		<p style="font-weight: bold; font-size: 1.2rem; color: var(--neon-blue);">
+			Email: applecardevice@gmail.com
+		</p>
+	</div>
+</Layout>
