@@ -1,6 +1,6 @@
 ---
 title: "Slippery Desires at The Lord Palace: A Masterclass in the Meat Bath"
-description: "An intimate exploration of Bangkok's most legendary massage institution, where skin-to-skin contact and opulent surroundings create the ultimate 'meat bath' experience."
+description: "深入探索曼谷最真實的夜生活體驗，包含環境氛圍、消費指南與實戰心得。"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/the-lord-palace-bangkok.png"
 ---

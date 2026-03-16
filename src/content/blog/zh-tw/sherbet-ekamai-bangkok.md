@@ -1,6 +1,6 @@
 ---
 title: "The Velveteen Labyrinth: A Night in the Sherbet Ekamai 'Meat Bath'"
-description: "An immersive journey into the high-end sensory overload of Sherbet Ekamai, where luxury meets the ultimate tactile indulgence of a multi-girl VIP experience."
+description: "深入探索曼谷最真實的夜生活體驗，包含環境氛圍、消費指南與實戰心得。"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/sherbet-ekamai-bangkok.png"
 ---
