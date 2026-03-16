@@ -2,7 +2,7 @@
 title: "The Meat Bath at Eden Club: A Descent into Bangkok’s Sensual Spiral"
 description: "An immersive journey into the tactile heart of Eden Club Bangkok, where the atmosphere is thick with desire and the "
 pubDate: "2026-03-16"
-# heroImage: "../../../assets/hero/eden-club-bangkok.png"
+# heroImage: '../../../assets/hero/eden-club-bangkok.png'
 ---
 
 Bangkok at night is a city of layers, but few places peel those layers back as provocatively as Eden Club. Located in the heart of the city’s premium nightlife district, Eden doesn't just offer a service; it offers a descent into a 'Sensual Spiral.' For those who find standard clubs too clinical or public venues too chaotic, Eden represents the 'Premium & Niche' category with a dark, industrial elegance that feels like a secret society dedicated to the flesh. To step inside is to leave the humidity of Sukhumvit behind and enter a world where the air is thick with the scent of expensive sandalwood and the pheromones of dozens of the city’s most exquisite women.

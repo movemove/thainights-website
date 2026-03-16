@@ -2,7 +2,7 @@
 title: "The Velveteen Labyrinth: A Night in the Sherbet Ekamai "
 description: "An immersive journey into the high-end sensory overload of Sherbet Ekamai, where luxury meets the ultimate tactile indulgence of a multi-girl VIP experience."
 pubDate: "2026-03-16"
-# heroImage: "../../../assets/hero/sherbet-ekamai-bangkok.png"
+# heroImage: '../../../assets/hero/sherbet-ekamai-bangkok.png'
 ---
 
 Stepping through the heavy, gold-trimmed doors of Sherbet Ekamai is like transitioning from the humid chaos of Bangkok into a pressurized chamber of pure opulence. The air inside is crisp, chilled to perfection, and heavy with the scent of expensive Jo Malone perfume and the smoky undertones of premium Japanese whiskey. This isn’t just a club; it’s a cathedral of carnal possibilities, a 'Premium & Niche' staple where the 'Sensual Spiral' begins the moment the velvet curtain parts. 
