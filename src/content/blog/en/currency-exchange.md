@@ -1,4 +1,4 @@
----
+--- 
 heroImage: '../../../assets/hero/budget-guide.png'
 title: "Chips of Desire: Currency Exchange & Cash Management in Bangkok"
 description: "In the depths of the Thai night, cash is your only true passport. Learn how to maximize your exchange rate."

@@ -1,7 +1,7 @@
----
+--- 
 title: "Pattaya Soi 6: The Daytime Harem for Dreamers"
 heroImage: '../../../assets/hero/soi6-pattaya.png'
-description: "When the sun hits Soi 6, it's not just a street—it's ground zero for a hormonal explosion."
+description: "When the sun hits Soi 6, it"
 pubDate: '2025-10-06'
 ---
 

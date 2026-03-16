@@ -1,4 +1,4 @@
----
+--- 
 title: "Riverside Noir: Dining on the Chao Phraya – Spice and Waves"
 heroImage: '../../../assets/hero/riverside-dining.png'
 description: "Amidst the mist of the river, let the heat of Thai spices awaken your deepest cravings."

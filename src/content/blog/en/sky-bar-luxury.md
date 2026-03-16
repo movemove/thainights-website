@@ -1,4 +1,4 @@
----
+--- 
 title: "Kiss the Clouds: Bangkok Sky Dining – A Sensory Spin of Breeze and Bubbles"
 heroImage: '../../../assets/hero/sky-bar-luxury.png'
 description: "At the peak of Bangkok, let the city neons be your tablecloth and feel the ultimate high-altitude romance."

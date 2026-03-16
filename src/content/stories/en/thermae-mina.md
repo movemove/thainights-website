@@ -1,5 +1,5 @@
----
-title: "The Midnight Spiral of Thermae ── Ultimate Sensory Baptism with 'Mina'"
+--- 
+title: "The Midnight Spiral of Thermae ── Ultimate Sensory Baptism with "
 description: "Pushed open the heavy wooden doors that seemed to cut off time, cold air mixed with hundreds of perfumes instantly wrapped around me..."
 pubDate: "2026-03-13"
 heroImage: '../../../assets/hero/thermae-coffee.png'

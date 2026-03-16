@@ -1,4 +1,4 @@
----
+--- 
 title: "隱秘的星系：芭達雅 LK Metro，比步行街更純粹的放縱"
 heroImage: '../../../assets/hero/lk-metro-pattaya.png'
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"

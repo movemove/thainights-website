@@ -1,6 +1,6 @@
----
+--- 
 title: "The Sensual Spiral: A Descent into Bliss at Emmanuelle Soapy Massage"
-description: "An immersive journey into the legendary Emmanuelle Soapy Massage, exploring the tactile art of the 'meat bath' and the intoxicating spiral of body-to-body intimacy."
+description: "An immersive journey into the legendary Emmanuelle Soapy Massage, exploring the tactile art of the "
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/emmanuelle-soapy-massage.png"
 ---

@@ -1,9 +1,8 @@
----
+--- 
 title: "芭達雅 Walking Street：全球老司機的終極朝聖地"
 heroImage: '../../../assets/hero/pattaya-walking-street.png'
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-08-24'
-
 ---
 
 來到芭達雅，如果沒去過 Walking Street (步行街)，等於沒來過。這條在海濱大道盡頭的街，白天看似平凡，晚上 7 點封路後，這裡會變成全世界能量最高的娛樂區域。

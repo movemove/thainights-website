@@ -1,4 +1,4 @@
----
+--- 
 title: "欲望的价码：2026 泰国夜生活消费完全算盘"
 heroImage: '../../../assets/hero/budget-guide.png'
 description: "出来玩，钱要花在刀口上。一份让你能掌控全局、优雅挥霍的预算指南。"

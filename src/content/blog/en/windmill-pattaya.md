@@ -1,5 +1,5 @@
----
-title: "The Windmill Vortex: Inside Pattaya's Wildest Pit of Lust"
+--- 
+title: "The Windmill Vortex: Inside Pattaya"
 heroImage: '../../../assets/hero/windmill-pattaya.png'
 description: "To see the true limits of Pattaya, enter The Windmill and feel your sanity slip away."
 pubDate: '2026-03-06'

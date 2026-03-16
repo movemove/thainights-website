@@ -1,5 +1,5 @@
----
-title: "Pattaya Soi 6 Wild Dream: The Alley-Battle Melody with 'Joy'"
+--- 
+title: "Pattaya Soi 6 Wild Dream: The Alley-Battle Melody with "
 description: "The 3 PM sun is scorching, but inside a dim second-floor room in Soi 6, a storm crazier than the heat is brewing..."
 pubDate: "2026-03-13"
 heroImage: '../../../assets/hero/soi6-pattaya.png'

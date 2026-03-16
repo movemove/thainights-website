@@ -1,4 +1,4 @@
----
+--- 
 title: "云端之吻：曼谷高空餐厅，晚风与香槟的感官缠绕"
 heroImage: '../../../assets/hero/sky-bar-luxury.png'
 description: "在曼谷之巅，让城市的霓虹成为你的桌布，感受极致的高空浪漫。"

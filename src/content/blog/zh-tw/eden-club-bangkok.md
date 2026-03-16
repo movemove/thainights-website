@@ -1,7 +1,5 @@
----
-title: "伊甸園俱樂部的「肉浴」：墜入曼谷的感官旋渦"carnal/sensual bath")
-*   **Descent into:** 墜入 (falling into) or 沉淪 (sinking/indulging in)
-*   **Sensual Spiral:** 感官旋渦 (Sensory/sensual vortex) or 情慾旋渦 (Erotic/desire vortex)"
+--- 
+title: "伊甸園俱樂部的「肉浴」：墜入曼谷的感官旋渦"
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/eden-club-bangkok.png"

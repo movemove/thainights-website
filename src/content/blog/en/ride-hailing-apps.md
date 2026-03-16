@@ -1,4 +1,4 @@
----
+--- 
 heroImage: "../../../assets/hero/ride-hailing-apps.jpg"
 title: "The Midnight Getaway: Grab & Bolt – Your Private Sanctuaries in Bangkok"
 description: "Skip the sidewalk drama and summon your personal escape vehicle with a tap of a button."

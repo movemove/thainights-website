@@ -1,4 +1,4 @@
----
+--- 
 title: "芭達雅 Soi 6：白日夢想家，整條街都是你的後宮"
 heroImage: '../../../assets/hero/soi6-pattaya.png'
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"

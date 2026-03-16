@@ -1,7 +1,7 @@
----
+--- 
 heroImage: '../../../assets/hero/ladyboy-bars-guide.png'
 title: "Peak Seduction: Obsession Nana Plaza – A Sensory Storm Challenging Reality"
-description: "In the corner of Nana Plaza's 2nd floor lies a wonderland that will make you forget the outside world."
+description: "In the corner of Nana Plaza"
 pubDate: "2025-12-05"
 ---
 

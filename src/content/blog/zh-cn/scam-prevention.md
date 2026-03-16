@@ -1,4 +1,4 @@
----
+--- 
 title: "暗黑生存法则：泰国夜生活「避坑」指南，守护你的钱包与理智"
 heroImage: '../../../assets/hero/scam-prevention.png'
 description: "欲望的森林里处处是陷阱。这篇攻略是你的防弹衣，让你在狂欢中全身而退。"

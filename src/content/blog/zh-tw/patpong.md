@@ -1,9 +1,8 @@
----
+--- 
 title: "Patpong 帕蓬夜市與紅燈區：經典老牌區的魅力與陷阱"
 heroImage: '../../../assets/hero/patpong.png'
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-10-12'
-
 ---
 
 走進帕蓬（Patpong），你首先感受到的是夜市攤販的喧鬧與潮濕的街道。但在這混亂的表象下，兩側的老牌 Go-Go Bar 散發著曼谷最早期的慾望氣息。

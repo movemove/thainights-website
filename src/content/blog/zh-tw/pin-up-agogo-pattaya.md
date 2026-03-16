@@ -1,21 +1,5 @@
----
-title: "霓虹迷宮：在芭達雅 Pin-up Agogo 沉浸於「肉林」之夜"肉林" (Forest of flesh) is a common Chinese idiomatic reference to a place filled with many bodies/sensuality, echoing the "Meat Bath" imagery.*
-
-**Option 2: Literal & Direct**
-> **霓虹迷宮：芭達雅 Pin-up Agogo 的肉色浴場之夜**
-> *(Pinyin: Níhóng mígōng: Bādáyǎ Pin-up Agogo de ròusè yùchǎng zhī yè)*
-> *Note: "肉色浴場" translates "Meat Bath" more literally while maintaining a nightlife vibe.*
-
-**Option 3: Stylized/Atmospheric**
-> **霓虹幻境：芭達雅 Pin-up Agogo 的肉慾盛宴**
-> *(Pinyin: Níhóng huànjìng: Bādáyǎ Pin-up Agogo de ròuyù shèngyàn)*
-> *Note: Translates "Meat Bath" as a "Carnal Feast," which sounds more dramatic in Chinese.*
-
-**Key Vocabulary Used:**
-*   **The Neon Labyrinth:** 霓虹迷宮 (Níhóng mígōng)
-*   **Meat Bath:** 肉林 (Ròulín - Idiomatic) or 肉浴 (Ròuyù - Literal)
-*   **Pattaya:** 芭達雅 (Bādáyǎ - Taiwan usage) or 芭提雅 (Bātíyǎ - HK/Mainland usage)
-*   **Pin-up Agogo:** Usually kept in English as it is a specific brand name."
+--- 
+title: "霓虹迷宮：在芭達雅 Pin-up Agogo 沉浸於「肉林」之夜"
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/pin-up-agogo-pattaya.png"

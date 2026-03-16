@@ -1,5 +1,5 @@
----
-title: "The Sacred Touch: Decoding Bangkok's Prostate Massage (Grab Long Jin)"
+--- 
+title: "The Sacred Touch: Decoding Bangkok"
 heroImage: '../../../assets/hero/grab-long-jin.png'
 description: "More than just a massage, this is a mystical ritual targeting the core of male vitality."
 pubDate: '2026-01-18'

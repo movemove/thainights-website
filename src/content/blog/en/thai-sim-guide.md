@@ -1,4 +1,4 @@
----
+--- 
 heroImage: '../../../assets/hero/thai-sim-guide.png'
 title: "Connected Desires: 2026 Thailand SIM Card & High-Speed Data Guide"
 description: "In the depths of the Thai night, losing connection means losing your soul. Stay online 24/7."

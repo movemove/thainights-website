@@ -1,9 +1,8 @@
----
-title: "曼谷高端玩家首選：Gentlemen's Clubs (The Pimp / Sherbet)"
+--- 
+title: "曼谷高端玩家首選：Gentlemen"
 heroImage: '../../../assets/hero/gentlemens-clubs.png'
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-10-31'
-
 ---
 
 對於追求極致私密性與高品質「肉色」的玩家來說，Gentlemen's Clubs (GC) 才是最終的朝聖地。走進 The Pimp 或 Sherbet，這裡沒有觀光客的喧囂，只有琥珀色的光影與極致的奢華。

@@ -1,5 +1,5 @@
----
-title: "Beyond the Food Stalls: Jodd Fairs' Hidden Bars and Encounters"
+--- 
+title: "Beyond the Food Stalls: Jodd Fairs"
 heroImage: '../../../assets/hero/jodd-fairs-nightlife.png'
 description: "At the end of the long food queues, there are open-air bars filled with alcohol and meaningful glances."
 pubDate: '2025-10-27'

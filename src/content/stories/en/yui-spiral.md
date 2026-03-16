@@ -1,5 +1,5 @@
----
-title: "The Black Baptism of Bangkok ── Ultimate Spiral with 'Yui'"
+--- 
+title: "The Black Baptism of Bangkok ── Ultimate Spiral with "
 description: "To the melody of Stay with me, I engaged in a profound exchange of soul and flesh with Yui in the heart of Bangkok."
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/yui-hero-unique.png"

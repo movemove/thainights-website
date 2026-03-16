@@ -1,5 +1,5 @@
----
-title: "The Velveteen Labyrinth: A Night in the Sherbet Ekamai 'Meat Bath'"
+--- 
+title: "The Velveteen Labyrinth: A Night in the Sherbet Ekamai "
 description: "An immersive journey into the high-end sensory overload of Sherbet Ekamai, where luxury meets the ultimate tactile indulgence of a multi-girl VIP experience."
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/sherbet-ekamai-bangkok.png"

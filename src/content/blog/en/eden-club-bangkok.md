@@ -1,6 +1,6 @@
----
+--- 
 title: "The Meat Bath at Eden Club: A Descent into Bangkok’s Sensual Spiral"
-description: "An immersive journey into the tactile heart of Eden Club Bangkok, where the atmosphere is thick with desire and the 'meat bath' of beautiful bodies creates a sensory overload unlike any other."
+description: "An immersive journey into the tactile heart of Eden Club Bangkok, where the atmosphere is thick with desire and the "
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/eden-club-bangkok.png"
 ---

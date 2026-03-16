@@ -1,4 +1,4 @@
----
+--- 
 title: "The Crimson Vortex: A Night in the Meat Bath of Rainbow 4"
 description: "An immersive journey into the tactile chaos and carnal rewards of Bangkok’s most famous meat-bath bar, where the boundaries between bodies dissolve in a neon haze."
 pubDate: "2026-03-16"

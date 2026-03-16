@@ -1,4 +1,4 @@
----
+--- 
 heroImage: '../../../assets/hero/ladyboy-bars-guide.png'
 title: "The Spiral Beyond Gender: A Deep Dive into Bangkok’s Ladyboy Bars"
 description: "Beneath faces more feminine than women, lies the most intense sensory spectacle in Bangkok."

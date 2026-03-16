@@ -1,4 +1,4 @@
----
+--- 
 title: "水之盛宴：曼谷「泰浴」玛丽亚与龙宫的极致洗浴"
 heroImage: '../../../assets/hero/soapy-massage-deep.png'
 description: "在温热的水雾中，所有的疲惫与防线都会被温柔的泡沫彻底融化。"

@@ -1,9 +1,8 @@
----
+--- 
 title: "曼谷 Nana Plaza 攻略：全球最大成人遊樂場深度評測"
 heroImage: '../../../assets/hero/nana-plaza.png'
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2026-03-08'
-
 ---
 
 位於 Sukhumvit Soi 4 的 Nana Plaza，不僅是一座建築，它是曼谷成人娛樂的靈魂圖騰。這座呈「U」字型的三層建築，每一層都散發著不同頻率的誘惑。

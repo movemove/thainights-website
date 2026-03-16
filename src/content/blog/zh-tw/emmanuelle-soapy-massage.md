@@ -1,5 +1,5 @@
----
-title: "感官旋渦：在艾曼紐泡泡按摩墜入極樂之境"Bubble massage," the standard term for this service)"
+--- 
+title: "感官旋渦：在艾曼紐泡泡按摩墜入極樂之境"
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/emmanuelle-soapy-massage.png"

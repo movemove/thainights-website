@@ -1,6 +1,6 @@
----
+--- 
 title: "The Neon Labyrinth: A Night in the Meat Bath at Pin-up Agogo Pattaya"
-description: "An immersive journey into the sensory overload of Pin-up Agogo, featuring the 'meat bath' atmosphere and a deep dive into a night of tactile bliss and carnal exploration."
+description: "An immersive journey into the sensory overload of Pin-up Agogo, featuring the "
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/pin-up-agogo-pattaya.png"
 ---

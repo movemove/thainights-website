@@ -1,9 +1,8 @@
----
+--- 
 title: "Soi Cowboy 霓虹小巷：曼谷最受歡迎的 Go-Go Bar 聚集地"
 heroImage: '../../../assets/hero/soi-cowboy.png'
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-08-25'
-
 ---
 
 走進 Soi Cowboy，那兩排密集的紅色霓虹燈會讓你的視覺瞬間過載。這條不足兩百公尺的巷子，卻是曼谷最能讓人臉紅心跳的肌膚戰場。

@@ -1,9 +1,8 @@
----
+--- 
 title: "Pattaya Walking Street: The Ultimate Pilgrimage for Global Players"
 heroImage: '../../../assets/hero/pattaya-walking-street.png'
 description: "If Bangkok is the heaven of nightlife, Walking Street is its center. Home to the craziest parties and densest bars."
 pubDate: '2025-08-24'
-
 ---
 
 Coming to Pattaya without visiting Walking Street is like never coming at all. This street at the end of Beach Road looks ordinary by day, but after 7 PM, it becomes one of the highest-energy entertainment zones in the world.

@@ -1,9 +1,8 @@
----
+--- 
 title: "Patpong Night Market & Red Light District: Charm and Traps"
 heroImage: '../../../assets/hero/patpong.png'
-description: "Bangkok's oldest red-light district, home to the famous Ping Pong Shows and many tourist traps."
+description: "Bangkok"
 pubDate: '2025-10-12'
-
 ---
 
 Patpong is the original red-light district of Bangkok, located in the Silom area. Its unique feature is the seamless integration of the "Patpong Night Market" with the Go-Go Bars lining both sides of the street.

@@ -1,6 +1,6 @@
----
+--- 
 title: "The Velvet Descent: A Meat Bath Odyssey at The Pimp Gentlemen’s Club"
-description: "An immersive review of the premium VIP experience at Bangkok's legendary The Pimp, focusing on the tactile ecstasy of the body-to-body soap massage and a night of high-end indulgence."
+description: "An immersive review of the premium VIP experience at Bangkok"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/the-pimp-gentlemens-club.png"
 ---
