@@ -2,7 +2,7 @@
 title: "The Neon Labyrinth: A Night in the Meat Bath at Pin-up Agogo Pattaya"
 description: "An immersive journey into the sensory overload of Pin-up Agogo, featuring the "
 pubDate: "2026-03-16"
-# heroImage: '../../../assets/hero/pin-up-agogo-pattaya.png'
+heroImage: '../../../assets/hero/pin-up-agogo-pattaya.png'
 ---
 
 Walking Street at midnight is a cacophony of light and sound, but nothing prepares you for the sheer atmospheric weight of Pin-up Agogo. It is the undisputed heavyweight champion of the Pattaya 'meat bath' experience. As the sliding doors hiss open, you aren’t just entering a bar; you are being submerged in a humid, neon-soaked ocean of flesh. The 'Sensual Spiral' begins the moment the air conditioning hits your skin, carrying the scent of expensive perfume, cigarette smoke, and the underlying pheromonal musk of a hundred dancing bodies.

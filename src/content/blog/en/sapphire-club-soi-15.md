@@ -2,7 +2,7 @@
 title: "The Sensual Spiral: Diving into the Meat Bath of Sapphire Club Soi 15"
 description: "An immersive journey into the heart of Pattaya’s most tactile playground, where the skin is warm, the neon is blue, and the pleasure is absolute."
 pubDate: "2026-03-16"
-# heroImage: '../../../assets/hero/sapphire-club-soi-15.png'
+heroImage: '../../../assets/hero/sapphire-club-soi-15.png'
 ---
 
 Pattaya after midnight is a living, breathing creature, and nowhere does its pulse beat more frantically than on Soi 15. Stepping through the heavy doors of Sapphire Club is like descending into a blue-hued fever dream. The air is thick—a cocktail of expensive perfume, the metallic tang of chilled spirits, and the unmistakable pheromones of a room packed with bodies. This is what regulars call the 'meat bath,' a sensory overload where personal space evaporates, replaced by the constant, electric friction of skin against skin.

@@ -2,7 +2,7 @@
 title: "帝王宫的丝滑诱惑：肉欲之浴的极致体验"
 description: "深入探索曼谷最传奇的按摩机构，在奢华的环境中体验肌肤相亲的极致“肉欲之浴”。"
 pubDate: "2026-03-16"
-# heroImage: "../../../assets/hero/the-lord-palace-bangkok.png"
+heroImage: "../../../assets/hero/the-lord-palace-bangkok.png"
 ---
 
 辉煌区（Huai Khwang）霓虹闪烁的喧嚣，对于享乐主义者来说无异于塞壬的歌声。而在这个区域的核心地带，矗立着一座感官奢华的丰碑：曼谷帝王宫（The Lord Palace Bangkok）。踏入沉重的玻璃大门，你瞬间便与城市的混乱隔绝。空气变得凉爽，弥漫着昂贵檀香的味道，还带着一丝若有若无、令人心跳加速的期待感。这不仅仅是一家按摩院，它是一座肉体的圣殿，而我正是为了行家们口中的“肉欲之浴”（meat bath）而来。

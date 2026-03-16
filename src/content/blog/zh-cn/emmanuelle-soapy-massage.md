@@ -2,7 +2,7 @@
 title: "感官螺旋：在曼努埃尔洗浴按摩坠入极乐深渊"
 description: "一段进入传奇曼努埃尔洗浴按摩（Emmanuelle Soapy Massage）的沉浸式旅程，探索“肉浴”的触觉艺术和令人陶醉的贴身亲密螺旋。"
 pubDate: "2026-03-16"
-# heroImage: "../../../assets/hero/emmanuelle-soapy-massage.png"
+heroImage: "../../../assets/hero/emmanuelle-soapy-massage.png"
 ---
 
 拉查达比色路（Ratchadapisek Road）的霓虹灯轰鸣声通常给人一种疯狂的脉动感，但踏入曼努埃尔洗浴按摩沉重的玻璃门后，外面的世界便消失了。这里有一种特殊的引力——一种期待与奢华的重量。大堂像是一座金箔与丝绒构成的殿堂，弥漫着淡淡的茉莉肥皂味，为我所称的“感官螺旋”搭建了舞台。这不仅仅是一次按摩；这是一次从平凡世界向纯粹、不加掩饰的肌肤之亲蓄谋已久的坠落。

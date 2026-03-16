@@ -2,7 +2,7 @@
 title: "藍寶石俱樂部的肉慾盛宴：芭達雅 Soi 15 的深夜螺旋"
 description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-16"
-# heroImage: "../../../assets/hero/sapphire-club-soi-15.png"
+heroImage: "../../../assets/hero/sapphire-club-soi-15.png"
 ---
 
 踏入位於芭達雅 Soi 15 的 Sapphire Club，你首先會被那股如同冷冽藍色閃電般的光影所震懾。不同於 Walking Street 上的嘈雜與無序，Sapphire 展現出一種更有條理、更具「質感」的肉慾氣息。這裡的空氣中瀰漫著混合了薄荷香與淡淡皮革味的氛圍，預示著一場感官螺旋的開啟。

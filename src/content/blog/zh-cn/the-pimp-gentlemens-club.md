@@ -2,7 +2,7 @@
 title: "丝绒般的沉沦：曼谷 The Pimp 绅士俱乐部的官能之浴奥德赛"
 description: "沉浸式评测曼谷传奇俱乐部 The Pimp 的顶级 VIP 体验，聚焦贴身肥皂按摩的触觉狂喜与高端放纵之夜。"
 pubDate: "2026-03-16"
-# heroImage: "../../../assets/hero/the-pimp-gentlemens-club.png"
+heroImage: "../../../assets/hero/the-pimp-gentlemens-club.png"
 ---
 
 踏入位于 Town in Town 的 The Pimp 绅士俱乐部，不仅仅是进入一个场所，更是跨入了一个精心打造的欲望王国。空气中弥漫着一种浓郁而迷人的混合气息：昂贵的信仰拿破仑之水（Creed Aventus）香水、茉莉花环的清甜，以及透过鞋底震动而来的深沉低音。这里是“顶级与小众”类别的完美化身，曼谷的霓虹灯火在这里褪色，化作一片黑大理石与金箔交织的幻影。在主舞台喝了几杯尊尼获加蓝方威士忌，欣赏完舞者如流火般的律动后，一名身着燕尾服的领班引导我走向私人 VIP 套房。真正的夜晚由此开启。
