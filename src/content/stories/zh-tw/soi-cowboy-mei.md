@@ -2,7 +2,7 @@
 title: "Soi Cowboy 的黑色驚喜 ── 與「Mei」的霓虹博弈"
 description: "Soi Cowboy 的空氣總是混雜著雨後的潮濕與幾十間 Go-Go Bar 散發出的廉價香水味..."
 pubDate: "2026-03-15"
-heroImage: "../../../assets/hero/soi-cowboy.png"
+heroImage: "../../../assets/hero/mei-hero-unique.png"
 ---
 
 Soi Cowboy 的空氣總是混雜著雨後的潮濕與幾十間 Go-Go Bar 散發出的廉價香水味。我穿行在如同鮮血般濃稠的紅霓虹燈影中，試圖尋找今晚的那份「螺旋感」。

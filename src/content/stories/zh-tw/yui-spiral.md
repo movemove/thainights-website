@@ -2,7 +2,7 @@
 title: "曼谷之巔的黑色洗禮 ── 與「Yui」的頂級螺旋"
 description: "在松原みき的 City Pop 旋律中，我與 Yui 在曼谷深夜開啟了一場超越感官的靈魂博弈。"
 pubDate: "2026-03-16"
-heroImage: '../../../assets/hero/soi-cowboy.png'
+heroImage: "../../../assets/hero/yui-hero-unique.png"
 ---
 
 耳邊響起松原みき那首經典的《Stay with me》，輕快的 City Pop 旋律在 Crazy House 的空氣中震盪，卻掩蓋不住那股讓人理智瓦解的淫靡氣息。

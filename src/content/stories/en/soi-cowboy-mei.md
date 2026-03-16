@@ -2,7 +2,7 @@
 title: "The Black Surprise of Soi Cowboy ── A Neon Gambit with 'Mei'"
 description: "The air of Soi Cowboy is always mixed with post-rain humidity and the scent of cheap perfumes from dozens of Go-Go Bars..."
 pubDate: "2026-03-15"
-heroImage: "../../../assets/hero/soi-cowboy.png"
+heroImage: "../../../assets/hero/mei-hero-unique.png"
 ---
 
 The air in Soi Cowboy is always thick with a mix of post-rain humidity and the scent of cheap perfume drifting from dozens of Go-Go Bars. I walked through the deep red neon glow, searching for that night’s specific "Sensual Spiral."
