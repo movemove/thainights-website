@@ -1,7 +1,7 @@
 ---
 title: "慾望的價碼：2026 泰國夜生活消費完全算盤"
 heroImage: '../../../assets/hero/budget-guide.png'
-description: "出來玩，錢要花在刀口上。一份讓你能掌控全局、優雅揮霍的預算指南。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2026-01-28'
 ---
 

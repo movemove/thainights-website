@@ -1,6 +1,6 @@
 ---
 title: "緋紅漩渦：彩虹四號肉浴之夜"
-description: "深入探索曼谷最真實的夜生活體驗，包含環境氛圍、消費指南與實戰心得。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/rainbow-4-nana-plaza.png"
 ---

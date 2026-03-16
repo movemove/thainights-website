@@ -1,7 +1,7 @@
 ---
 heroImage: '../../../assets/hero/thai-sim-guide.png'
 title: "慾望的連結：2026 泰國 SIM 卡與高速網路全攻略"
-description: "在泰國的深夜，斷網等於斷了靈魂。一篇教你如何保持 24 小時在線。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-14"
 ---
 

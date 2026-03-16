@@ -1,7 +1,7 @@
 ---
 title: "水之盛宴：曼谷「泰浴」瑪麗亞與龍宮的極致洗浴"
 heroImage: '../../../assets/hero/soapy-massage-deep.png'
-description: "在溫熱的水霧中，所有的疲憊與防線都會被溫柔的泡沫徹底融化。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-08-02'
 ---
 

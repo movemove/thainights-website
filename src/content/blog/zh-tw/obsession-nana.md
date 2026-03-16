@@ -1,7 +1,7 @@
 ---
 heroImage: '../../../assets/hero/ladyboy-bars-guide.png'
 title: "魅惑的巔峰：Obsession Nana Plaza，挑戰認知的感官風暴"
-description: "在 Nana Plaza 二樓的角落，藏著一個能讓你徹底忘記現實的變裝樂園。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2025-12-05"
 ---
 

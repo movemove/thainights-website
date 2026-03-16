@@ -1,7 +1,7 @@
 ---
 heroImage: '../../../assets/hero/guest-friendly-hotels.png'
 title: "慾望的停泊處：曼谷與芭達雅「Joiner-Free」友善飯店全攻略"
-description: "在曼谷的深夜，選擇正確的「避風港」是你優雅撤退的最後一道門檻。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2025-11-15"
 ---
 

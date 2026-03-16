@@ -1,7 +1,7 @@
 ---
 title: "隱秘的星系：芭達雅 LK Metro，比步行街更純粹的放縱"
 heroImage: '../../../assets/hero/lk-metro-pattaya.png'
-description: "避開 Walking Street 的擁擠，這座位於市中心的 L 型迷宮正散發著獨特的暗黑光芒。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-08-30'
 ---
 

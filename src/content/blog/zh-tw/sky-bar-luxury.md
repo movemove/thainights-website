@@ -1,7 +1,7 @@
 ---
 title: "雲端之吻：曼谷高空餐廳，晚風與香檳的感官纏繞"
 heroImage: '../../../assets/hero/sky-bar-luxury.png'
-description: "在曼谷之巔，讓城市的霓虹成為你的桌布，感受極致的高空浪漫。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-13"
 ---
 

@@ -17,7 +17,7 @@ title: "Here are a few ways to translate this title into Traditional Chinese, de
 *   **Diving into:** 潛入 (Qiánrù) / 深入 (Shēnrù)
 *   **Meat Bath:** 肉林 (Ròulín - *metaphorical*) or 肉浴 (Ròuyù - *literal*)
 *   **Sapphire Club Soi 15:** Sapphire Club 15 巷 (Usually, the club name remains in English for branding)."
-description: "深入探索曼谷最真實的夜生活體驗，包含環境氛圍、消費指南與實戰心得。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-16"
 # heroImage: "../../../assets/hero/sapphire-club-soi-15.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "曼谷高端玩家首選：Gentlemen's Clubs (The Pimp / Sherbet)"
 heroImage: '../../../assets/hero/gentlemens-clubs.png'
-description: "如果你預算充足，想要體驗更高層次的泰國夜生活，這些私人俱樂部是你的最佳選擇。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-10-31'
 
 ---

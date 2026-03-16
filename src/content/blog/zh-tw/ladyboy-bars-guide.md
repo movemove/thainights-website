@@ -1,7 +1,7 @@
 ---
 heroImage: '../../../assets/hero/ladyboy-bars-guide.png'
 title: "超越性別的螺旋：曼谷 Ladyboy Bar 深度探索手冊"
-description: "在那張比女人更嬌媚的臉龐下，隱藏著曼谷最具張力的感官奇觀。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2025-11-15"
 ---
 

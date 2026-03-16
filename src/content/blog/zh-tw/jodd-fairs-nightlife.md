@@ -1,7 +1,7 @@
 ---
 title: "夜市之後：Jodd Fairs 隱藏的微醺螺旋與邂逅"
 heroImage: '../../../assets/hero/jodd-fairs-nightlife.png'
-description: "在排隊美食的盡頭，隱藏著幾間充滿酒精與眼神交會的露天酒吧。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-10-27'
 ---
 

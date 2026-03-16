@@ -1,7 +1,7 @@
 ---
 title: "河畔夜色：昭披耶河畔，辛辣與水波的感官對話"
 heroImage: '../../../assets/hero/riverside-dining.png'
-description: "水氣氤氳中，讓泰式香料的熱力喚醒你最深層的食慾。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-13"
 ---
 

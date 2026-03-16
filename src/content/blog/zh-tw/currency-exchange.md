@@ -1,7 +1,7 @@
 ---
 heroImage: '../../../assets/hero/budget-guide.png'
 title: "慾望的籌碼：曼谷換匯與現金管理，優雅揮霍的藝術"
-description: "在曼谷的深夜，現金就是你的通行證。一篇教你如何換到最漂亮的匯率。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: "2026-03-14"
 ---
 

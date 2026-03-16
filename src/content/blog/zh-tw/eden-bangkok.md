@@ -1,7 +1,7 @@
 ---
 title: "伊甸園禁果：曼谷 Eden Club 的私密感官派對"
 heroImage: '../../../assets/hero/eden-bangkok.png'
-description: "推開那扇門，所有的道德與束縛都將留在門外。這裡是屬於成人的最終樂園。"
+description: "泰國夜生活深度實測評測，為您揭開曼谷與芭達雅的神祕面紗。"
 pubDate: '2025-11-19'
 ---
 
